@@ -1,0 +1,246 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Manrope', sans-serif;
+}
+
+.body {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* ---Banner Section--- */
+.banner {
+  width: 100%;
+  background-color: #32B54B;
+  display: flex;
+}
+
+.banner .wrapper {
+  width: 100%;
+  max-width: 1200px;
+  padding: 12px 0;
+  margin: auto;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+}
+
+.banner-info {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  min-width: fit-content;
+}
+
+.banner-info i {
+  font-size: 16px;
+}
+
+.banner-divider {
+  height: 20px;
+  width: 1px;
+  background-color: #59CF6F;
+}
+
+.banner-language {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+}
+
+.banner-language i {
+  font-size: 16px;
+}
+
+/* ---Navbar Section--- */
+header {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  background: #FFF;
+  box-shadow: 0px 2px 8px 0px rgba(18, 18, 18, 0.12);
+}
+
+.navbar {
+  background-color: white;
+  margin: auto;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: row;
+  padding: 16px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.nav-item {
+  padding: 12px 10px;
+  min-width: fit-content;
+  text-decoration: none;
+  color: #6B7280;
+  border-bottom: 2px solid #FFF;
+}
+
+.nav-item:hover {
+  color: #0785C2;
+  border-bottom: 2px solid #0785C2;
+}
+
+.nav-leading {
+  width: 100%;
+  display: flex;
+}
+
+.nav-leading img {
+  width: 176px;
+}
+
+.nav-trailing {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*---Button Style---*/
+.button {
+  color: white;
+  border-radius: 10px;
+  background: radial-gradient(342.17% 141.42% at 0% 0%, #39FFFF 0%, #0394BF 26.62%, #1BBCEB 69.38%, #00BBB0 100%);
+  box-shadow: 0px 1px 2px 0px rgba(30, 44, 77, 0.24), 0px 2px 4px 0px rgba(255, 255, 255, 0.25) inset;
+  display: flex;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.label-wrapper {
+  display: flex;
+  padding: 0px 6px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 8px;
+  color: var(--Gray-50, #F9FAFB);
+  text-shadow: 0px 1px 1px rgba(30, 44, 77, 0.24);
+  font-family: Manrope;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.45px;
+}
+
+.button i {
+  filter: drop-shadow(0px 1px 1px rgba(30, 44, 77, 0.24));
+  font-size: 20px;
+}
+
+/*---Footer Section---*/
+.footer {
+  display: flex;
+  padding: 64px 0px;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  align-self: stretch;
+  background: #111827;
+}
+
+.footer-wrapper {
+  width: 100%;
+  display: flex;
+  max-width: 1200px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+.footer-leading {
+  width: 100%;
+}
+
+.footer-leading img {
+  width: 132px;
+}
+
+.footer-nav-item {
+  min-width: fit-content;
+  text-decoration: none;
+  padding: 0 12px;
+  font-size: 14px;
+  color: #9CA3AF;
+}
+
+.footer-nav-item:hover {
+  color: #13A7E4;
+}
+
+.footer-trailing {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+.footer-social {
+  font-size: 20px;
+  color: #6B7280;
+  text-decoration: none;
+}
+
+.footer-social:hover {
+  color: #13A7E4;
+}
+
+.footer-bottom {
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: #4B5563;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.14px;
+}
+
+.footer-bottom .right {
+  max-width: 360px;
+  text-align: right;
+}
