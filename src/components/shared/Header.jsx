@@ -1,6 +1,7 @@
 import React from 'react'
 import { useSelectedRoute } from '../../hooks/useSelectedRoute'
 import logo from '../../assets/images/Logo.png'
+import { useNavigate } from 'react-router-dom'
 const navItems = [
     {
         id: 0,
@@ -30,6 +31,10 @@ const navItems = [
 ]
 const Header = () => {
     const selectedRoute = useSelectedRoute();
+    const navigate = useNavigate();
+    const goPage = (item) => {
+        navigate(item.path)
+    }
     return (
         <header >
             <div className="banner">
@@ -53,15 +58,16 @@ const Header = () => {
             </div>
             <nav className='navbar'>
                 <div className="nav-leading">
-                    <img src={logo}alt="" />
+                    <img src={logo} alt="" />
                 </div>
                 {
                     navItems.map((item, i) => {
                         return (
                             <a
-                                className={selectedRoute === item.path ?"nav-item nav-active" : 'nav-item'}
+                                onClick={() => goPage(item)}
+                                className={selectedRoute === item.path ? "nav-item nav-active" : 'nav-item'}
                                 key={i}
-                                href={item.path}>
+                            >
                                 {item.text}
                             </a>
                         )

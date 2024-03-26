@@ -9,7 +9,9 @@ body {
   justify-content: center;
   font-family: 'Manrope', sans-serif;
 }
-
+a{
+  cursor: pointer;
+}
 .container {
   height: 100vh;
   margin: auto;
