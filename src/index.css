@@ -1,19 +1,13 @@
 body {
   min-height: 100vh;
+  height: 100%;
   display: flex;
   padding: 0 0 0 0;
   margin: 0 0 0 0;
   flex-direction: column;
   align-items: center;
-  font-family: 'Manrope', sans-serif;
-}
-
-.body {
-  flex: 1;
-  height: 100%;
-  display: flex;
   justify-content: center;
-  align-items: center;
+  font-family: 'Manrope', sans-serif;
 }
 
 .container {
@@ -135,10 +129,14 @@ header {
   background: radial-gradient(342.17% 141.42% at 0% 0%, #39FFFF 0%, #0394BF 26.62%, #1BBCEB 69.38%, #00BBB0 100%);
   box-shadow: 0px 1px 2px 0px rgba(30, 44, 77, 0.24), 0px 2px 4px 0px rgba(255, 255, 255, 0.25) inset;
   display: flex;
-  padding: 8px 12px;
+  padding: 12px 16px;
   justify-content: center;
   align-items: center;
   border: none;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.45px;
+  width: max-content;
 }
 
 .label-wrapper {
@@ -243,4 +241,77 @@ header {
 .footer-bottom .right {
   max-width: 360px;
   text-align: right;
+}
+
+/*---Hero Section---*/
+.hero {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 800px;
+  gap: 48px;
+  justify-content: center;
+  background: linear-gradient(180deg, rgba(60, 148, 212, 0.90) 0%, rgba(0, 66, 113, 0.95) 100%);
+}
+
+.hero img{
+  position: absolute;
+  z-index: -20;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  object-fit: cover;
+  
+}
+
+.lockup {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  max-width: 1000px;
+  padding: 32px 0px;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.badge {
+  display: flex;
+  padding: 6px 24px;
+  border-radius: 48px;
+  backdrop-filter: blur(26px);
+  width: max-content;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.80);
+  background-color: rgba(255, 255, 255, 0.10);
+  border: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+.lockup-text {
+  color: white;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.68px;
+  margin: 0;
+  padding: 0;
+}
+
+.lockup-information {
+  color: rgba(255, 255, 255, 0.60);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.16px;
 }
