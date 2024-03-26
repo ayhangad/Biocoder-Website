@@ -1,5 +1,6 @@
 import React from 'react'
 import footerlogo from '../../assets/images/footerlogo.png'
+import { useNavigate } from 'react-router-dom'
 const navItems = [
     {
         id: 0,
@@ -29,6 +30,10 @@ const navItems = [
 ]
 
 export const Footer = () => {
+    const navigate = useNavigate();
+    const goPage = (item) => {
+        navigate(item.path)
+    }
     return (
         <div className='footer'>
             <div className="footer-wrapper">
@@ -39,9 +44,11 @@ export const Footer = () => {
                     {
                         navItems.map((item, i) => {
                             return (
-                                <a className='footer-nav-item'
+                                <a
+                                    onClick={() => goPage(item)}
+                                    className="footer-nav-item"
                                     key={i}
-                                    href={item.path}>
+                                >
                                     {item.text}
                                 </a>
                             )
