@@ -15,7 +15,6 @@ body {
   margin: auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 /* ---Banner Section--- */
@@ -100,6 +99,7 @@ header {
   text-decoration: none;
   color: #6B7280;
   border-bottom: 2px solid #FFF;
+  font-size: 14px;
 }
 
 .nav-item:hover {
@@ -256,10 +256,11 @@ header {
 
 .hero img{
   position: absolute;
-  z-index: -20;
+  z-index: -10;
   height: 100%;
   width: 100%;
-  top: 0;
+  max-height: 800px;
+  margin: auto;
   object-fit: cover;
   
 }
@@ -314,4 +315,7 @@ header {
   font-weight: 400;
   line-height: 30px;
   letter-spacing: -0.16px;
+  max-width: 700px;
+  padding: 0;
+  margin: 0;
 }
