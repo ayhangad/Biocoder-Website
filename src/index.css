@@ -107,6 +107,11 @@ header {
   border-bottom: 2px solid #0785C2;
 }
 
+.nav-active {
+  color: #0785C2;
+  border-bottom: 2px solid #0785C2;
+}
+
 .nav-leading {
   width: 100%;
   display: flex;
@@ -254,7 +259,7 @@ header {
   background: linear-gradient(180deg, rgba(60, 148, 212, 0.90) 0%, rgba(0, 66, 113, 0.95) 100%);
 }
 
-.hero img{
+.hero img {
   position: absolute;
   z-index: -10;
   height: 100%;
@@ -262,7 +267,7 @@ header {
   max-height: 800px;
   margin: auto;
   object-fit: cover;
-  
+
 }
 
 .lockup {

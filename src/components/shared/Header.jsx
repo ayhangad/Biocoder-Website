@@ -1,4 +1,5 @@
 import React from 'react'
+import { useSelectedRoute } from '../../hooks/useSelectedRoute'
 const navItems = [
     {
         id: 0,
@@ -27,7 +28,7 @@ const navItems = [
     }
 ]
 const Header = () => {
-
+    const selectedRoute = useSelectedRoute();
     return (
         <header >
             <div className="banner">
@@ -56,7 +57,8 @@ const Header = () => {
                 {
                     navItems.map((item, i) => {
                         return (
-                            <a className='nav-item'
+                            <a
+                                className={selectedRoute === item.path ?"nav-item nav-active" : 'nav-item'}
                                 key={i}
                                 href={item.path}>
                                 {item.text}
