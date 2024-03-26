@@ -1,4 +1,5 @@
 import React from 'react'
+import footerlogo from '../../assets/images/footerlogo.png'
 const navItems = [
     {
         id: 0,
@@ -33,7 +34,7 @@ export const Footer = () => {
             <div className="footer-wrapper">
                 <div className="footer-top">
                     <div className="footer-leading">
-                        <img src="../src/assets/images/footerlogo.png" alt="" />
+                        <img src={footerlogo} alt="" />
                     </div>
                     {
                         navItems.map((item, i) => {

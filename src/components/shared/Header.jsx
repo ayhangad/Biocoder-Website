@@ -1,5 +1,6 @@
 import React from 'react'
 import { useSelectedRoute } from '../../hooks/useSelectedRoute'
+import logo from '../../assets/images/Logo.png'
 const navItems = [
     {
         id: 0,
@@ -52,7 +53,7 @@ const Header = () => {
             </div>
             <nav className='navbar'>
                 <div className="nav-leading">
-                    <img src="../src/assets/images/Logo.png" alt="" />
+                    <img src={logo}alt="" />
                 </div>
                 {
                     navItems.map((item, i) => {
