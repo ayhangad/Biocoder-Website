@@ -24,6 +24,26 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+                <div className="floating-menu">
+                    <div className="floating-item jordy-blue-500">
+                        <i className='ri-bug-fill'></i>
+                        <span>
+                            Kovan Takip <i className='ri-arrow-right-up-line'></i>
+                        </span>
+                    </div>
+                    <div className="floating-item jordy-blue-600">
+                        <i className='ri-temp-hot-fill'></i>
+                        <span>
+                            Sıcaklık Nem Takip <i className='ri-arrow-right-up-line'></i>
+                        </span>
+                    </div>
+                    <div className="floating-item jordy-blue-700">
+                        <i className='ri-map-pin-4-fill'></i>
+                        <span>
+                            GSM Datalogger <i className='ri-arrow-right-up-line'></i>
+                        </span>
+                    </div>
+                </div>
             </div>
             <div className='products'>
                 Works
