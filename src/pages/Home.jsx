@@ -1,9 +1,13 @@
 import React from 'react'
 import Hero from '../assets/images/Hero.jpg'
+import HiveTracMini from '../assets/images/HiveTracMini.png'
+import BeeLoggerMini from '../assets/images/BeeLoggerMini.png'
+import HeatHumidityMapping from '../assets/images/HeatHumidityMapping.jpg'
+import HeatHumiMini from '../assets/images/HeatHumiMini.jpg'
 const Home = () => {
     return (
         <>
-            <div className='hero'>
+            <section className='hero'>
                 <img src={Hero} alt="" />
                 <div className="lockup">
                     <div className="wrapper">
@@ -44,10 +48,53 @@ const Home = () => {
                         </span>
                     </div>
                 </div>
-            </div>
-            <div className='products'>
-                Works
-            </div>
+            </section>
+            <section className='products'>
+                <div className="section-header">
+                    <h1>
+                        Ürünlerimiz
+                    </h1>
+                    <p>
+                        Son yıllarda önemi giderek artan IoT sistemler üzerine uzmanlaşarak bir çok projeye imza atıyoruz.
+                    </p>
+                </div>
+                <div className="product-list">
+                    <div className="product-item">
+                        <img src={HiveTracMini} alt="" />
+                        <div className="product-information">
+                            <span>Kovan Takip Sistemi</span>
+                            <a href="">Detayları incele</a>
+                        </div>
+                    </div>
+                    <div className="product-item">
+                        <img src={HeatHumiMini} alt="" />
+                        <div className="product-information">
+                            <span>Kovan Takip Sistemi</span>
+                            <a href="">Detayları incele</a>
+                        </div>
+                    </div>
+                    <div className="product-item">
+                        <img src={BeeLoggerMini} alt="" />
+                        <div className="product-information">
+                            <span>Kovan Takip Sistemi</span>
+                            <a href="">Detayları incele</a>
+                        </div>
+                    </div>
+                    <div className="product-item">
+                        <img src={HeatHumidityMapping} alt="" />
+                        <div className="product-information">
+                            <span>Kovan Takip Sistemi</span>
+                            <a href="">Detayları incele</a>
+                        </div>
+                    </div>
+                </div>
+                <div className="see-all-divider">
+                    <div className="divider"></div>
+                    <a className="button button-secondary">Tümünü gör</a>
+                    <div className="divider"></div>
+                </div>
+
+            </section>
 
         </>
     )
