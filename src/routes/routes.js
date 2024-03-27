@@ -10,7 +10,7 @@ export const routes = [
         path: '/',
         component: Home,
         layout: DefaultLayout,
-        title: "Ana Sayfa",
+        title: "Biocoder Teknoloji A.Ş",
     },
     {
         path: '/about',
