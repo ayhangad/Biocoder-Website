@@ -20,12 +20,12 @@ const Home = () => {
                         <p className="lockup-information">
                             BioCoder Teknoloji, güçlü gömülü sistem ekibiyle endüstri standartlarına uygun yazılım geliştirme ve inovatif çözümler sunma konusunda uzmanlaşmıştır.
                         </p>
-                        <div className="button">
+                        <button className="button">
                             <i className="ri-mail-line"></i>
                             <span className="label-wrapper">
                                 İletişime geç
                             </span>
-                        </div>
+                        </button>
                     </div>
                 </div>
                 <div className="floating-menu">
@@ -90,7 +90,7 @@ const Home = () => {
                 </div>
                 <div className="see-all-divider">
                     <div className="divider"></div>
-                    <a className="button button-secondary">Tümünü gör</a>
+                    <button className="button button-secondary">Tümünü gör</button>
                     <div className="divider"></div>
                 </div>
 

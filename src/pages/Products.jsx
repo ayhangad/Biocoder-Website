@@ -6,7 +6,25 @@ const Products = () => {
       <section className="page-header">
         <div>
           <h1>Ürünlerimiz</h1>
-          <p>2004 yılında "En yeni iletişim ve bilgisayar teknolojilerini kullanarak Eğitim Teknolojileri müşterilerine dünya standartlarında çözümler sunmak" ilkesiyle yola çıkan BioCoder Teknoloji</p>
+          <p>Firmamız Her Zaman Yenilikçi İşler Peşinde... Biocoder Teknoloji A.Ş Çok Yakında Çalışmasını Yaptığımız Ar-Ge Ürünler Ile Buradayız.</p>
+        </div>
+      </section>
+      <section className="product-section">
+        <img src="" alt="" />
+        <div className='product-information'>
+          <div>
+            <h3>Title</h3>
+            <p>Short description</p>
+          </div>
+          <div>
+            <span>
+              <i className="ri-check-line"></i>
+              Isı ve Nem (Kovan İçi ve Dışı)
+            </span>
+          </div>
+          <button className='button'>Broşür için tıklayınız</button>
+
+
         </div>
       </section>
     </div>

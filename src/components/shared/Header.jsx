@@ -74,12 +74,12 @@ const Header = () => {
                     })
                 }
                 <div className="nav-trailing">
-                    <div className="button">
+                    <button className="button">
                         <span className="label-wrapper">
                             Giriş yap
                         </span>
                         <i className="ri-arrow-right-up-line"></i>
-                    </div>
+                    </button>
                 </div>
             </nav>
 
