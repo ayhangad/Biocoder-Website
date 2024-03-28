@@ -1,4 +1,8 @@
 import React from 'react'
+import HiveTracMini from '../assets/images/HiveTracMini.png'
+import BeeLoggerMini from '../assets/images/BeeLoggerMini.png'
+import HeatHumidityMapping from '../assets/images/HeatHumidityMapping.jpg'
+import HeatHumiMini from '../assets/images/HeatHumiMini.jpg'
 
 const Products = () => {
   return (
@@ -10,21 +14,95 @@ const Products = () => {
         </div>
       </section>
       <section className="product-section">
-        <img src="" alt="" />
-        <div className='product-information'>
-          <div>
-            <h3>Title</h3>
-            <p>Short description</p>
+        <div className="wrapper">
+          <img src={HiveTracMini} alt="" />
+          <div className='product-information'>
+            <div>
+              <h3>Loggbee Kovan Takip Sistemi</h3>
+              <p>Cihaz Mersin Teknopark Ar-Ge Ofisimizde YıCihaz Mersin Teknopark Ar-Ge Ofisimizde Yıllar Süren Çalışmalar ve Tecrübe Sonucu Üretilmiştir.llar Süren Çalışmalar ve Tecrübe Sonucu Üretilmiştir.</p>
+            </div>
+            <div>
+              <span>
+                <i className="ri-check-line"></i>
+                Isı ve Nem (Kovan İçi ve Dışı)
+              </span>
+              <span>
+                <i className="ri-check-line"></i>
+                Hava Kalitesi (Oksijen ve Diğer Gazların Oranı)
+              </span>
+              <span>
+                <i className="ri-check-line"></i>
+                Ses Kalitesi (Kovandaki Translate İşlemi)
+              </span>
+              <span>
+                <i className="ri-check-line"></i>
+                2G/3G/4G Haberleşme
+              </span>
+              <span>
+                <i className="ri-check-line"></i>
+                GPRS Konum Takibi
+              </span>
+              <span>
+                <i className="ri-check-line"></i>
+                Hareket Modulü
+              </span>
+              <span>
+                <i className="ri-check-line"></i>
+                Ağırlık Takip (Zaman Grafikli)
+              </span>
+              <span>
+                <i className="ri-check-line"></i>
+                Kamera ile Online İzleme ve Kayıt
+              </span>
+            </div>
+            <button className='button'>Broşür için tıklayınız</button>
           </div>
-          <div>
-            <span>
-              <i className="ri-check-line"></i>
-              Isı ve Nem (Kovan İçi ve Dışı)
-            </span>
+        </div>
+      </section>
+      <section className="product-section">
+        <div className="wrapper">
+          <img src={HiveTracMini} alt="" />
+          <div className='product-information'>
+            <div>
+              <h3>Title</h3>
+              <p>Short description</p>
+            </div>
+            <div>
+              <span>
+                <i className="ri-check-line"></i>
+                Isı ve Nem (Kovan İçi ve Dışı)
+              </span>
+              <span>
+                <i className="ri-check-line"></i>
+                Hava Kalitesi (Oksijen ve Diğer Gazların Oranı)
+              </span>
+              <span>
+                <i className="ri-check-line"></i>
+                Ses Kalitesi (Kovandaki Translate İşlemi)
+              </span>
+              <span>
+                <i className="ri-check-line"></i>
+                2G/3G/4G Haberleşme
+              </span>
+              <span>
+                <i className="ri-check-line"></i>
+                GPRS Konum Takibi
+              </span>
+              <span>
+                <i className="ri-check-line"></i>
+                Hareket Modulü
+              </span>
+              <span>
+                <i className="ri-check-line"></i>
+                Ağırlık Takip (Zaman Grafikli)
+              </span>
+              <span>
+                <i className="ri-check-line"></i>
+                Kamera ile Online İzleme ve Kayıt
+              </span>
+            </div>
+            <button className='button'>Broşür için tıklayınız</button>
           </div>
-          <button className='button'>Broşür için tıklayınız</button>
-
-
         </div>
       </section>
     </div>
