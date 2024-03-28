@@ -9,6 +9,7 @@ const Contact = () => {
           <p>2004 yılında "En yeni iletişim ve bilgisayar teknolojilerini kullanarak Eğitim Teknolojileri müşterilerine dünya standartlarında çözümler sunmak" ilkesiyle yola çıkan BioCoder Teknoloji</p>
         </div>
       </section>
+      
     </div>
   )
 }
