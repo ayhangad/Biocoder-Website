@@ -29,24 +29,24 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="floating-menu">
-                    <div className="floating-item jordy-blue-500">
+                    <a href='https://bee.biocoder.com.tr/' target='_blank' className="floating-item jordy-blue-500">
                         <i className='ri-bug-fill'></i>
                         <span>
                             Kovan Takip <i className='ri-arrow-right-up-line'></i>
                         </span>
-                    </div>
-                    <div className="floating-item jordy-blue-600">
+                    </a>
+                    <a href='https://portal.biocoder.com.tr/Account/Login' target='_blank' className="floating-item jordy-blue-600">
                         <i className='ri-temp-hot-fill'></i>
                         <span>
                             Sıcaklık Nem Takip <i className='ri-arrow-right-up-line'></i>
                         </span>
-                    </div>
-                    <div className="floating-item jordy-blue-700">
+                    </a>
+                    <a href='http://logistic.biocoder.com.tr/' target='_blank' className="floating-item jordy-blue-700">
                         <i className='ri-map-pin-4-fill'></i>
                         <span>
                             GSM Datalogger <i className='ri-arrow-right-up-line'></i>
                         </span>
-                    </div>
+                    </a>
                 </div>
             </section>
             <section className='products'>
@@ -69,21 +69,21 @@ const Home = () => {
                     <div className="product-item">
                         <img src={HeatHumiMini} alt="" />
                         <div className="product-information">
-                            <span>Kovan Takip Sistemi</span>
+                            <span>Sıcaklık ve Nem Ölçme Cih..</span>
                             <a href="">Detayları incele</a>
                         </div>
                     </div>
                     <div className="product-item">
                         <img src={BeeLoggerMini} alt="" />
                         <div className="product-information">
-                            <span>Kovan Takip Sistemi</span>
+                            <span>Kovan Güvenlik Kartı</span>
                             <a href="">Detayları incele</a>
                         </div>
                     </div>
                     <div className="product-item">
                         <img src={HeatHumidityMapping} alt="" />
                         <div className="product-information">
-                            <span>Kovan Takip Sistemi</span>
+                            <span>Isı ve Nem Haritalaması</span>
                             <a href="">Detayları incele</a>
                         </div>
                     </div>

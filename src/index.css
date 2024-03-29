@@ -381,6 +381,7 @@ header {
   gap: 12px;
   flex: 1 0 0;
   transition: 0.3s;
+  text-decoration: none;
 }
 
 .floating-item:hover {
