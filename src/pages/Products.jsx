@@ -4,6 +4,7 @@ import BeeLoggerMini from '../assets/images/BeeLoggerMini.png'
 import HeatHumidityMapping from '../assets/images/HeatHumidityMapping.jpg'
 import HeatHumiMini from '../assets/images/HeatHumiMini.jpg'
 import GsmDataLogger from '../assets/images/gsmDataLogger.jpg'
+import Button from '../components/shared/Button'
 
 const Products = () => {
   return (
@@ -56,7 +57,7 @@ const Products = () => {
                 Kamera ile Online İzleme ve Kayıt
               </span>
             </div>
-            <button className='button'>Broşür için tıklayınız</button>
+            <Button type={'button'} innerText={'Broşür için tıklayınız'} />
           </div>
         </div>
       </section>
@@ -119,7 +120,8 @@ const Products = () => {
                 En önemli özelliklerinden biri de eczanenizdeki klimayı cihaza tanıtabiliyoruz ve sıcaklık belli bir değerin üstüne veya altına düştüğünde cihaz klimayı otomatik olarak açıp kapatabiliyor.
               </span>
             </div>
-            <button className='button'>Çok yakında</button>
+            <Button type={'button'} innerText={'Çok yakında'} />
+
           </div>
         </div>
       </section>
@@ -176,12 +178,7 @@ const Products = () => {
                 Kovan Güvenlik Kartı ile sizin olaya zamanında müdahale etme şansınız olur ve olası kayıplar önlenmiş olur.
               </span>
             </div>
-            <button className='button'>
-              <i className='ri-phone-line'></i>
-              <span className="label-wrapper">
-                Arayın - 0 850 44 11 477
-              </span>
-            </button>
+            <Button type={'button'} innerText={'Arayın - 0 850 44 11 477'} iconL={'phone'} />
           </div>
         </div>
       </section>
@@ -227,12 +224,7 @@ const Products = () => {
                 Datalogger cihazlarını ve Isı haritalama yazılımını Mersin Teknopark ofisimizde geliştiriyoruz.
               </span>
             </div>
-            <button className='button'>
-              <i className='ri-phone-line'></i>
-              <span className="label-wrapper">
-                Arayın - 0 850 44 11 477
-              </span>
-            </button>
+            <Button type={'button'} innerText={'Arayın - 0 850 44 11 477'} iconL={'phone'} />
             <div>
               <p>15/06/2022 tarihinde Resmi Gazetede yayımlanarak yürürlüğe giren Ecza Ticarethaneleri ve Ecza Ticarethanelerinde Bulundurulan Ürünler Hakkında Yönetmelik doğrultusunda yeni hazırlanan Beşeri Tıbbi Ürünler İçin İyi Dağıtım Uygulamaları Kılavuzu 08/08/2022 tarihinde TİTCK internet sitesinde yayımlanarak yürürlüğe girmiştir.</p>
             </div>

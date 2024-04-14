@@ -4,6 +4,7 @@ import HiveTracMini from '../assets/images/HiveTracMini.png'
 import BeeLoggerMini from '../assets/images/BeeLoggerMini.png'
 import HeatHumidityMapping from '../assets/images/HeatHumidityMapping.jpg'
 import HeatHumiMini from '../assets/images/HeatHumiMini.jpg'
+import Button from '../components/shared/Button'
 const Home = () => {
     return (
         <>
@@ -20,12 +21,8 @@ const Home = () => {
                         <p className="lockup-information">
                             BioCoder Teknoloji, güçlü gömülü sistem ekibiyle endüstri standartlarına uygun yazılım geliştirme ve inovatif çözümler sunma konusunda uzmanlaşmıştır.
                         </p>
-                        <button className="button">
-                            <i className="ri-mail-line"></i>
-                            <span className="label-wrapper">
-                                İletişime geç
-                            </span>
-                        </button>
+                        <Button type={'button'} disabled={false} innerText={'İletişime geç'} iconL={'mail'} />
+
                     </div>
                 </div>
                 <div className="floating-menu">
@@ -90,7 +87,7 @@ const Home = () => {
                 </div>
                 <div className="see-all-divider">
                     <div className="divider"></div>
-                    <button className="button button-secondary">Tümünü gör</button>
+                    <Button type={'button button-secondary'} innerText={'Tümünü gör'} />
                     <div className="divider"></div>
                 </div>
 

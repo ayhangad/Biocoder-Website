@@ -2,6 +2,8 @@ import React from 'react'
 import { useSelectedRoute } from '../../hooks/useSelectedRoute'
 import logo from '../../assets/images/Logo.png'
 import { useNavigate } from 'react-router-dom'
+import Button from './Button'
+
 const navItems = [
     {
         id: 0,
@@ -74,12 +76,7 @@ const Header = () => {
                     })
                 }
                 <div className="nav-trailing">
-                    <button className="button">
-                        <span className="label-wrapper">
-                            Giriş yap
-                        </span>
-                        <i className="ri-arrow-right-up-line"></i>
-                    </button>
+                    <Button type={'button'} disabled={false} innerText={'Giriş yap'} iconR={'arrow-right-up'} />
                 </div>
             </nav>
 

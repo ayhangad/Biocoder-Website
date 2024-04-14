@@ -149,10 +149,11 @@ header {
 
 /*---Button Style---*/
 .button {
-  color: white;
+  color: #F9FAFB;
   border-radius: 10px;
-  background: radial-gradient(342.17% 141.42% at 0% 0%, #39FFFF 0%, #0394BF 26.62%, #1BBCEB 69.38%, #00BBB0 100%);
-  box-shadow: 0px 1px 2px 0px rgba(30, 44, 77, 0.24), 0px 2px 4px 0px rgba(255, 255, 255, 0.25) inset;
+  /* background: radial-gradient(342.17% 141.42% at 0% 0%, #39FFFF 0%, #0394BF 26.62%, #1BBCEB 69.38%, #00BBB0 100%); */
+  background: #13A7E4;
+  box-shadow: 0px 1px 2px 0px rgba(30, 44, 77, 0.24), 0px 2px 4px 0px rgba(255, 255, 255, 0.25) inset 0px 1px 2px 0px rgba(30, 44, 77, 0.24);
   display: flex;
   padding: 12px 16px;
   justify-content: center;
@@ -163,9 +164,15 @@ header {
   letter-spacing: -0.45px;
   width: max-content;
   text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.button:hover{
+  background: #3DBEF3;
 }
 
 .button-secondary {
+  color: #030712;
   display: flex;
   padding: 8px 12px;
   justify-content: center;
@@ -176,6 +183,9 @@ header {
   color: #030712;
   min-width: fit-content;
 }
+.button-secondary:hover{
+  background: #E5E7EB;
+}
 
 .label-wrapper {
   display: flex;
@@ -183,7 +193,6 @@ header {
   justify-content: flex-end;
   align-items: flex-start;
   gap: 8px;
-  color: var(--Gray-50, #F9FAFB);
   text-shadow: 0px 1px 1px rgba(30, 44, 77, 0.24);
   font-family: Manrope;
   font-size: 15px;
@@ -191,6 +200,9 @@ header {
   font-weight: 500;
   line-height: 20px;
   letter-spacing: -0.45px;
+}
+.button-secondary .label-wrapper{
+  text-shadow: none;
 }
 
 .button i {

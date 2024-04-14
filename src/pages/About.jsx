@@ -1,5 +1,6 @@
 import React from 'react'
 import argePhoto from '../assets/images/arge.jpg'
+import Button from '../components/shared/Button'
 
 const About = () => {
   return (
@@ -94,7 +95,7 @@ const About = () => {
             Araştırma; bilinmeyeni bilmeye, öğrenmeye yönelik yapılan bilimsel teknolojik faaliyetlerdir. Geliştirme ise, mevcut bilgiyi ya da teknolojiyi yeni düzenlemelerle daha iyiye doğru yönlendirme faaliyetidir.
 
             Araştırma-geliştirme bilimsel ve teknik bilgi birikimini artırmak amacıyla sistematik bir temele dayalı olarak yürütülen yaratıcı çaba ve bu bilgi biri­kiminin yeni uygulamalarda kullanılmasıdır.</p>
-          <button href="" className="button">Neler yapıyoruz?</button>
+          <Button type={'button'} innerText={'Neler yapıyoruz?'} />
         </div>
       </section>
 
