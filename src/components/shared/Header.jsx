@@ -77,6 +77,7 @@ const Header = () => {
                 }
                 <div className="nav-trailing">
                     <Button type={'button'} disabled={false} innerText={'Giriş yap'} iconR={'arrow-right-up'} />
+                    <Button type={'button button-secondary'} disabled={false} innerText={'Menu'} iconL={'menu'} />
                 </div>
             </nav>
 
