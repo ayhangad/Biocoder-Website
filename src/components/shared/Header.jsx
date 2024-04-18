@@ -41,7 +41,7 @@ const Header = () => {
         <header >
             <div className="banner">
                 <div className="wrapper">
-                    <div className="banner-info">
+                    <div className="banner-info banner-location">
                         <i className="ri-map-pin-2-line"></i>
                         Teknopark Z02, Çiftlikköy/Mersin
                     </div>
@@ -77,6 +77,8 @@ const Header = () => {
                 }
                 <div className="nav-trailing">
                     <Button type={'button'} disabled={false} innerText={'Giriş yap'} iconR={'arrow-right-up'} />
+                </div>
+                <div className="nav-trailing-responsive">
                     <Button type={'button button-secondary'} disabled={false} innerText={'Menu'} iconL={'menu'} />
                 </div>
             </nav>
