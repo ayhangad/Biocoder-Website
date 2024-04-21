@@ -4,6 +4,7 @@ import About from "../pages/About";
 import Home from "../pages/Home";
 import Blog from "../pages/Blog";
 import Products from "../pages/Products";
+import ProductDetail from "../pages/ProductDetail";
 import Contact from "../pages/Contact";
 export const routes = [
     {
@@ -21,6 +22,12 @@ export const routes = [
     {
         path: '/products',
         component: Products,
+        layout: DefaultLayout,
+        title: "Ürünler",
+    },
+    {
+        path: '/products/:productId',
+        component: ProductDetail,
         layout: DefaultLayout,
         title: "Ürünler",
     },

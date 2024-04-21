@@ -1,10 +1,8 @@
 import React from 'react'
 import Hero from '../assets/images/Hero.jpg'
-import HiveTracMini from '../assets/images/HiveTracMini.png'
-import BeeLoggerMini from '../assets/images/BeeLoggerMini.png'
-import HeatHumidityMapping from '../assets/images/HeatHumidityMapping.jpg'
-import HeatHumiMini from '../assets/images/HeatHumiMini.jpg'
 import Button from '../components/shared/Button'
+import ProductsData from '../data/products.json'
+
 const Home = () => {
     return (
         <>
@@ -56,14 +54,22 @@ const Home = () => {
                     </p>
                 </div>
                 <div className="product-list">
-                    <div className="product-item">
-                        <img src={HiveTracMini} alt="" />
-                        <div className="product-information">
-                            <span>Kovan Takip Sistemi</span>
-                            <a href="">Detayları incele</a>
-                        </div>
-                    </div>
-                    <div className="product-item">
+
+                    {
+                        ProductsData?.sections?.slice(0,4).map((product, index) => {
+                            return (
+                                <div className="product-item">
+                                    <img src={product?.image} alt="" />
+                                    <div className="product-information">
+                                        <span>{product?.title}</span>
+                                        <a href={"/products/" + product.sefLink}>Detayları incele</a>
+                                    </div>
+                                </div>
+                            )
+                        })
+                    }
+
+                    {/* <div className="product-item">
                         <img src={HeatHumiMini} alt="" />
                         <div className="product-information">
                             <span>Sıcaklık ve Nem Ölçme Cih..</span>
@@ -83,7 +89,7 @@ const Home = () => {
                             <span>Isı ve Nem Haritalaması</span>
                             <a href="">Detayları incele</a>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="see-all-divider">
                     <div className="divider"></div>

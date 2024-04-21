@@ -16,16 +16,20 @@ const Button = ({
             disabled={disabled}
         >
             <i className={`ri-${iconL}-line`}></i>
-            <span className="label-wrapper">
-                {innerText}
-            </span>
+            {
+                innerText && (
+                    <span className="label-wrapper">
+                        {innerText}
+                    </span>
+                )
+            }
             <i className={`ri-${iconR}-line`}></i>
         </button>
     )
 }
 Button.defaultProps = {
     type: 'primary',
-    innerText: 'Label',
+    innerText: null,
     iconR: '',
     iconL: '',
     disabled: false,

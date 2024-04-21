@@ -3,6 +3,7 @@ import { useSelectedRoute } from '../../hooks/useSelectedRoute'
 import logo from '../../assets/images/Logo.png'
 import { useNavigate } from 'react-router-dom'
 import Button from './Button'
+import ContactPopup from './ContactPopup'
 
 const navItems = [
     {
@@ -34,11 +35,14 @@ const navItems = [
 const Header = () => {
     const selectedRoute = useSelectedRoute();
     const navigate = useNavigate();
+    const [isMenuOpen, setIsMenuOpen] = React.useState(false)
+    const [isModalOpen, setIsModalOpen] = React.useState(false)
     const goPage = (item) => {
         navigate(item.path)
     }
     return (
         <header >
+            <ContactPopup isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} />
             <div className="banner">
                 <div className="wrapper">
                     <div className="banner-info banner-location">
@@ -76,10 +80,18 @@ const Header = () => {
                     })
                 }
                 <div className="nav-trailing">
-                    <Button type={'button button-secondary'} disabled={false} innerText={'İletişime geç'} />
+                    <Button type={'button button-secondary'} disabled={false} innerText={'İletişime geç'} onClick={()=>setIsModalOpen(!isModalOpen)} />
                 </div>
                 <div className="nav-trailing-responsive">
-                    <Button type={'button button-secondary'} disabled={false} innerText={'Menu'} iconL={'menu'} />
+                    <Button 
+                    type={'button button-secondary'} 
+                    disabled={false} 
+                    iconL={'menu'}
+                    onClick={()=>setIsMenuOpen(!isMenuOpen)}
+                    />
+                </div>
+                <div className={`${isMenuOpen && "h-100"}`}>
+                    Buraya menü gelecek
                 </div>
             </nav>
 
