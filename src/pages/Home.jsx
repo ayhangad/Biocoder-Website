@@ -2,8 +2,10 @@ import React from 'react'
 import Hero from '../assets/images/Hero.jpg'
 import Button from '../components/shared/Button'
 import ProductsData from '../data/products.json'
+import { useNavigate } from 'react-router-dom'
 
 const Home = () => {
+    const navigate = useNavigate();
     return (
         <>
             <section className='hero'>
@@ -56,7 +58,7 @@ const Home = () => {
                 <div className="product-list">
 
                     {
-                        ProductsData?.sections?.slice(0,4).map((product, index) => {
+                        ProductsData?.sections?.slice(0, 4).map((product, index) => {
                             return (
                                 <div className="product-item">
                                     <img src={product?.image} alt="" />
@@ -68,32 +70,14 @@ const Home = () => {
                             )
                         })
                     }
-
-                    {/* <div className="product-item">
-                        <img src={HeatHumiMini} alt="" />
-                        <div className="product-information">
-                            <span>Sıcaklık ve Nem Ölçme Cih..</span>
-                            <a href="">Detayları incele</a>
-                        </div>
-                    </div>
-                    <div className="product-item">
-                        <img src={BeeLoggerMini} alt="" />
-                        <div className="product-information">
-                            <span>Kovan Güvenlik Kartı</span>
-                            <a href="">Detayları incele</a>
-                        </div>
-                    </div>
-                    <div className="product-item">
-                        <img src={HeatHumidityMapping} alt="" />
-                        <div className="product-information">
-                            <span>Isı ve Nem Haritalaması</span>
-                            <a href="">Detayları incele</a>
-                        </div>
-                    </div> */}
                 </div>
                 <div className="see-all-divider">
                     <div className="divider"></div>
-                    <Button type={'button button-secondary'} innerText={'Tümünü gör'} />
+                    <Button
+                        type={'button button-secondary'}
+                        innerText={'Tümünü gör'}
+                        onClick={() => navigate(`/products`)}
+                    />
                     <div className="divider"></div>
                 </div>
 

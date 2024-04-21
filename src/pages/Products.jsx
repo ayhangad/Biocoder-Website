@@ -8,8 +8,6 @@ const Products = () => {
   const navigate = useNavigate();
   const filteredProduct = ProductsData?.sections?.filter((product) => product?.sefLink === productId)
 
-  console.log(ProductsData?.sections)
-
   const handleClickButton = (path) => {
     navigate(`/products/${path}`)
   }

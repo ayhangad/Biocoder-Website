@@ -511,6 +511,7 @@ header {
 }
 
 .product-item .product-information {
+  width: 89%;
   display: flex;
   padding: 12px 20px;
   flex-direction: column;
@@ -526,6 +527,10 @@ header {
 
 .product-item .product-information span {
   color: #030712;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -842,6 +847,7 @@ header {
 }
 
 .product-section .wrapper {
+  width: 100%;
   max-width: 1200px;
   display: flex;
   flex-direction: column;
@@ -850,14 +856,16 @@ header {
 }
 
 .product-section .wrapper img {
+  width: 100%;
   height: 500px;
   border-radius: 24px;
   object-fit: cover;
 }
 
 .product-information {
+  width: 100%;
   display: flex;
-  padding: 64px 32px;
+  padding: 32px 32px;
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
@@ -918,7 +926,6 @@ header {
   align-content: flex-start;
   gap: 24px;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 .blog-item {
@@ -1197,9 +1204,8 @@ header {
   position: fixed;
   height: 100vh;
   width: 100%;
-  background-color: #121212b7;
+  background-color: #121212d5;
   z-index: 10;
-  backdrop-filter: blur(12px);
 }
 .modal-shade .wrapper{
   position: relative;
@@ -1224,6 +1230,8 @@ header {
   right: 16px;
   top: 16px;
 }
+
+/*---*/
 
 /*---Media Screen---*/
 @media only screen and (max-width: 1200px) {
