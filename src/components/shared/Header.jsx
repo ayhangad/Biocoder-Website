@@ -64,7 +64,7 @@ const Header = () => {
             </div>
             <nav className='navbar'>
                 <div className="nav-leading">
-                    <img src={logo} alt="" />
+                    <img src={logo} alt="" onClick={() => navigate(`/`)} />
                 </div>
                 {
                     navItems.map((item, i) => {
@@ -80,18 +80,32 @@ const Header = () => {
                     })
                 }
                 <div className="nav-trailing">
-                    <Button type={'button button-secondary'} disabled={false} innerText={'İletişime geç'} onClick={()=>setIsModalOpen(!isModalOpen)} />
+                    <Button type={'button button-secondary'} disabled={false} innerText={'İletişime geç'} onClick={() => setIsModalOpen(!isModalOpen)} />
                 </div>
                 <div className="nav-trailing-responsive">
-                    <Button 
-                    type={'button button-secondary'} 
-                    disabled={false} 
-                    iconL={'menu'}
-                    onClick={()=>setIsMenuOpen(!isMenuOpen)}
+                    <Button
+                        type={'button button-secondary'}
+                        disabled={false}
+                        iconL={'menu'}
+                        onClick={() => setIsMenuOpen(!isMenuOpen)}
                     />
                 </div>
-                <div className={`${isMenuOpen && "h-100"}`}>
-                    Buraya menü gelecek
+                <div className={`${isMenuOpen && "show"} hamburger`}>
+                    <div className="hamburger-wrapper">
+                        {
+                            navItems.map((item, i) => {
+                                return (
+                                    <a
+                                        onClick={() => goPage(item)}
+                                        className={selectedRoute === item.path ? "hamburger-item nav-active" : 'hamburger-item'}
+                                        key={i}
+                                    >
+                                        {item.text}
+                                    </a>
+                                )
+                            })
+                        }
+                    </div>
                 </div>
             </nav>
 
