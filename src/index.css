@@ -1251,9 +1251,6 @@ header {
   padding: 32px;
   gap: 20px;
 }
-.hamburger-item{
-
-}
 
 /*---Media Screen---*/
 @media only screen and (max-width: 1200px) {
