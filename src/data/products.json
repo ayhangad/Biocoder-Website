@@ -55,7 +55,7 @@
     {
       "className": "product-section",
       "position": "left",
-      "image": "../../public/images/3.jpeg",
+      "image": "/images/3.jpeg",
       "title": "Kovan Güvenlik Kartı",
       "features": [
         "Güvenlik kartı kovan peteğine gizlenen bir cihazır.",
