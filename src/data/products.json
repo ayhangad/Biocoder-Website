@@ -3,7 +3,7 @@
     {
       "className": "product-section",
       "position": "left",
-      "image": "/src/assets/images/HiveTracMini.png",
+      "image": "/images/HiveTracMini.png",
       "title": "Loggbee Kovan Takip Sistemi",
       "description": "Cihaz Mersin Teknopark Ar-Ge Ofisimizde Yıllar Süren Çalışmalar ve Tecrübe Sonucu Üretilmiştir.",
       "features": [
@@ -28,7 +28,7 @@
     {
       "className": "product-section",
       "position": "right",
-      "image": "/src/assets/images/HeatHumiMini.jpg",
+      "image": "/images/HeatHumiMini.jpg",
       "title": "Sıcaklık ve Nem Wi-Fi ( Datalogger ) Cihazı",
       "description": "Cihazı Mersin Teknopark Ar-Ge ofisimizde geliştirilmiştir ve geliştirmeye devam ediyoruz.",
       "features": [
@@ -82,7 +82,7 @@
     {
       "className": "product-section",
       "position": "right",
-      "image": "/src/assets/images/HeatHumidityMapping.jpg",
+      "image": "/images/HeatHumidityMapping.jpg",
       "title": "Isı ve Nem Haritalaması",
       "description": "Ecza depolarına Sıcaklık (Isı) Haritalaması yapıyoruz. Sağlık Bakanlığının yeni yönetmeliği gereği rafları dolu ve çalışan ecza depoları için yılda 1 defa 7 gün olmak üzere Isı haritalaması istenmektedir.",
       "features": [
@@ -101,7 +101,7 @@
     {
       "className": "product-section",
       "position": "left",
-      "image": "/src/assets/images/gsmDataLogger.jpg",
+      "image": "/images/gsmDataLogger.jpg",
       "title": "GSM Datalogger",
       "features": [
         "Hassas Sıcaklık Kontrolü: M2M lojistikte kargo takibi, değerli malzemelerinizin taşıma süreci boyunca maruz kaldığı sıcaklık dalgalanmalarını hassas bir şekilde izler. Bu, özellikle ilaç, gıda ve diğer hassas ürünler için kritik önem taşır.",
