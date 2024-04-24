@@ -6,7 +6,12 @@ import { useNavigate } from 'react-router-dom'
 
 const Home = () => {
     const navigate = useNavigate();
+    const mailButton = () => {
+        const mailtoLink = `mailto:info@biocoder.com.tr`;
+        window.location.href = mailtoLink;
+    };
     return (
+        
         <>
             <section className='hero'>
                 <img src={Hero} alt="" />
@@ -21,8 +26,7 @@ const Home = () => {
                         <p className="lockup-information">
                             BioCoder Teknoloji, güçlü gömülü sistem ekibiyle endüstri standartlarına uygun yazılım geliştirme ve inovatif çözümler sunma konusunda uzmanlaşmıştır.
                         </p>
-                        <Button type={'button'} disabled={false} innerText={'İletişime geç'} iconL={'mail'} />
-
+                        <Button onClick={mailButton} type={'button'} disabled={false} innerText={'İletişime geç'} iconL={'mail'} />
                     </div>
                 </div>
                 <div className="floating-menu">
