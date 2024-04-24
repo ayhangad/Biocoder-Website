@@ -3,18 +3,22 @@ import Hero from '../assets/images/Hero.jpg'
 import Button from '../components/shared/Button'
 import ProductsData from '../data/products.json'
 import { useNavigate } from 'react-router-dom'
-
+import Carousel from "../components/shared/Carousel.jsx";
+import sliderData from "../data/sliderData.json";
 const Home = () => {
     const navigate = useNavigate();
     const mailButton = () => {
         const mailtoLink = `mailto:info@biocoder.com.tr`;
         window.location.href = mailtoLink;
     };
+
     return (
-        
+
         <>
+            <Carousel data={sliderData?.sections} />
+
             <section className='hero'>
-                <img src={Hero} alt="" />
+                <img src={Hero} alt=""/>
                 <div className="lockup">
                     <div className="wrapper">
                         <div className="badge">
@@ -24,9 +28,11 @@ const Home = () => {
                             Profesyonel Çözümlerle Teknolojiyi Yeniden Şekillendirmek.
                         </h1>
                         <p className="lockup-information">
-                            BioCoder Teknoloji, güçlü gömülü sistem ekibiyle endüstri standartlarına uygun yazılım geliştirme ve inovatif çözümler sunma konusunda uzmanlaşmıştır.
+                            BioCoder Teknoloji, güçlü gömülü sistem ekibiyle endüstri standartlarına uygun yazılım
+                            geliştirme ve inovatif çözümler sunma konusunda uzmanlaşmıştır.
                         </p>
-                        <Button onClick={mailButton} type={'button'} disabled={false} innerText={'İletişime geç'} iconL={'mail'} />
+                        <Button onClick={mailButton} type={'button'} disabled={false} innerText={'İletişime geç'}
+                                iconL={'mail'}/>
                     </div>
                 </div>
                 <div className="floating-menu">
@@ -36,7 +42,8 @@ const Home = () => {
                             Kovan Takip <i className='ri-arrow-right-up-line'></i>
                         </span>
                     </a>
-                    <a href='https://portal.biocoder.com.tr/Account/Login' target='_blank' className="floating-item jordy-blue-600">
+                    <a href='https://portal.biocoder.com.tr/Account/Login' target='_blank'
+                       className="floating-item jordy-blue-600">
                         <i className='ri-temp-hot-fill'></i>
                         <span>
                             Sıcaklık Nem Takip <i className='ri-arrow-right-up-line'></i>
@@ -56,7 +63,8 @@ const Home = () => {
                         Ürünlerimiz
                     </h1>
                     <p>
-                        Son yıllarda önemi giderek artan IoT sistemler üzerine uzmanlaşarak bir çok projeye imza atıyoruz.
+                        Son yıllarda önemi giderek artan IoT sistemler üzerine uzmanlaşarak bir çok projeye imza
+                        atıyoruz.
                     </p>
                 </div>
                 <div className="product-list">
@@ -65,7 +73,7 @@ const Home = () => {
                         ProductsData?.sections?.slice(0, 4).map((product, index) => {
                             return (
                                 <div className="product-item">
-                                    <img src={product?.image} alt="" />
+                                    <img src={product?.image} alt=""/>
                                     <div className="product-information">
                                         <span>{product?.title}</span>
                                         <a href={"/products/" + product.sefLink}>Detayları incele</a>
