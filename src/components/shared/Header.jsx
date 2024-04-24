@@ -4,6 +4,7 @@ import logo from '../../assets/images/Logo.png'
 import { useNavigate } from 'react-router-dom'
 import Button from './Button'
 import ContactPopup from './ContactPopup'
+import LogInPopup from './LogInPopup'
 
 const navItems = [
     {
@@ -42,7 +43,8 @@ const Header = () => {
     }
     return (
         <header >
-            <ContactPopup isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} />
+            {/* <ContactPopup isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} /> */}
+            <LogInPopup isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} />
             <div className="banner">
                 <div className="wrapper">
                     <div className="banner-info banner-location">
@@ -80,7 +82,7 @@ const Header = () => {
                     })
                 }
                 <div className="nav-trailing">
-                    <Button type={'button button-secondary'} disabled={false} innerText={'İletişime geç'} onClick={() => setIsModalOpen(!isModalOpen)} />
+                    <Button type={'button'} disabled={false} innerText={'Giriş yap'} onClick={() => setIsModalOpen(!isModalOpen)} />
                 </div>
                 <div className="nav-trailing-responsive">
                     <Button className="menu-open-close"

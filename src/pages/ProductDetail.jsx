@@ -2,16 +2,25 @@ import React from 'react'
 import Button from '../components/shared/Button'
 import { useParams, useNavigate } from 'react-router-dom'
 import ProductsData from '../data/products.json'
+import ContactPopup from '../components/shared/ContactPopup'
+import { useSelectedRoute } from '../hooks/useSelectedRoute'
 
 
 const Products = () => {
   const { productId } = useParams();
   const navigate = useNavigate();
   const product = ProductsData?.sections?.filter((product) => product?.sefLink === productId)[0]
+  const selectedRoute = useSelectedRoute();
+  const [isMenuOpen, setIsMenuOpen] = React.useState(false)
+  const [isModalOpen, setIsModalOpen] = React.useState(false)
+  const goPage = (item) => {
+    navigate(item.path)
+  }
 
 
   return (
     <div>
+      <ContactPopup isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} />
       <section className="product-section">
         <div className="wrapper">
           <img src={product?.image} alt="" />
@@ -39,11 +48,12 @@ const Products = () => {
                 )
               })
             }
-            <Button
-              type={'button'}
-              innerText={product?.buttonText}
-              disabled={true}
-            />
+              <Button
+                type={'button button-secondary'}
+                innerText={product?.buttonText}
+                disabled={true}
+              />
+              <Button type={'button'} disabled={false} innerText={'İletişime geç'} onClick={() => setIsModalOpen(!isModalOpen)} />
           </div>
         </div>
       </section>
