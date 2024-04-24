@@ -1,103 +1,108 @@
 {
-    "sections": [
-      {
-        "className": "product-section",
-        "position": "left",
-        "image": "/src/assets/images/HiveTracMini.png",
-        "title": "Loggbee Kovan Takip Sistemi",
-        "description": "Cihaz Mersin Teknopark Ar-Ge Ofisimizde Yıllar Süren Çalışmalar ve Tecrübe Sonucu Üretilmiştir.",
-        "features": [
-          "Isı ve Nem (Kovan İçi ve Dışı)",
-          "Hava Kalitesi (Oksijen ve Diğer Gazların Oranı)",
-          "Ses Kalitesi (Kovandaki Translate İşlemi)",
-          "2G/3G/4G Haberleşme",
-          "GPRS Konum Takibi",
-          "Hareket Modulü",
-          "Ağırlık Takip (Zaman Grafikli)",
-          "Kamera ile Online İzleme ve Kayıt"
-        ],
-        "buttonText": "Broşür için tıklayınız",
-        "sefLink": "loggbee-kovan-takip-sistemi"
-      },
-      {
-        "className": "product-section",
-        "position": "right",
-        "image": "/src/assets/images/HeatHumiMini.jpg",
-        "title": "Loggbee Sıcaklık ve Nem Ölçme Cihazı",
-        "description": "Cihazı Mersin Teknopark Ar-Ge ofisimizde geliştirilmiştir ve geliştirmeye devam ediyoruz.",
-        "features": [
-          "Ortam sıcaklığı için sıcaklık ve nem sensörleri vardır.",
-          "Özel tasarım LCD ekran ile wifi bağlantısı, tarih, saat ve sıcaklık bilgisini ekranda gösterir.",
-          "Web yazılımında maksimum ve minimum değer tanımlaması yapılabilir.",
-          "Geliştirdiğimiz üründe sıcaklık ve nem uyarılarını eş zamanlı olarak 3 kişiye gönderebilir.",
-          "Eczanelerin istediği aylık çizelge web ortamında pdf ve excel olarak alınabilir",
-          "Sms ve mail bildirimi mevcut.",
-          "Web üzerinden izleme, geriye dönük rapor alabilme, gün içinde en yüksek ve en düşük değeri öğrenme, grafik şeklinde takip edebilebilme özelliği mevcut.",
-          "Android ve IOS için uygulama geliştiriliyor. 1 Temmuz’da aktif olarak kullanıma açılacaktır.",
-          "Kalibrasyonu TÜRKAK yetkilendirilmiş laboratuvarlarında yapılmıştır",
-          "TÜRKAK sertifikası ile birlikte ürün teslim edilecektir.",
-          "Nem ölçüm aralığı: 0 ~ 100% RHNem ölçüm doğruluğu: ± 2 % Sıcaklık ölçüm aralığı: -40 ~ 125 C",
-          "En önemli özelliklerinden biri de eczanenizdeki klimayı cihaza tanıtabiliyoruz ve sıcaklık belli bir değerin üstüne veya altına düştüğünde cihaz klimayı otomatik olarak açıp kapatabiliyor."
-        ],
-        "buttonText": "Çok yakında",
-        "sefLink": "loggbee-sicaklik-ve-nem-olcme-cihazi"
-      },
-      {
-        "className": "product-section",
-        "position": "left",
-        "image": "/src/assets/images/BeeLoggerMini.png",
-        "title": "Kovan Güvenlik Kartı",
-        "features": [
-          "Kovan Güvenlik Kartı ile kovanlarınız güvende.",
-          "Kovanda hırsızlık, yabani hayvan saldırısı olduğunda veya kovan sıcaklığı aşırı yükseldiğinde size bildirim gelecektir.",
-          "Cihaz bal petek çıtası içinde gizlenmiş şekildedir.",
-          "Hareket algıladığında cihaz hemen size bildirim ve mail gönderir.",
-          "Ardından size kovanın konumunu gönderir.",
-          "Cihaz hareket algılamaya devam ettikçe size yeni konum bilgisi gelir.",
-          "Gönderilen tüm konumlar kayıt altındadır.",
-          "Cihaza takılı olan pilin yeterliliği bildirim sıklığına göre 1-3 ay aralığındadır.",
-          "Sim kart sisteme dahil şeklinde teslim edilir.",
-          "Bal sezonundan sonra müşterilere ve toptancılara arılarınızın hangi bölgede konakladığını belgeleyebilirsiniz.",
-          "Kovan Güvenlik Kartı ile sizin olaya zamanında müdahale etme şansınız olur ve olası kayıplar önlenmiş olur."
-        ],
-        "buttonText": "Arayın - 0 850 44 11 477",
-        "sefLink": "kovan-guvenlik-karti"
-      },
-      {
-        "className": "product-section",
-        "position": "right",
-        "image": "/src/assets/images/HeatHumidityMapping.jpg",
-        "title": "Isı ve Nem Haritalaması",
-        "description": "Ecza depolarına Sıcaklık (Isı) Haritalaması yapıyoruz. Sağlık Bakanlığının yeni yönetmeliği gereği rafları dolu ve çalışan ecza depoları için yılda 1 defa 7 gün olmak üzere Isı haritalaması istenmektedir.",
-        "features": [
-          "Sıcaklık haritalaması için istenen sıcaklık değerleri (15°C - 25°C) arasıdır.",
-          "Soğuk Zincir depolar için (2°C - 8°C)",
-          "Depoda bulunan Ortam, Buzdolabı, Soğuk Oda, Karantina, Mal Kabul, Red Alan v.b alanlar için ayrı ayrı haritalama yapılması gereklidir.",
-          "Deponun büyüklüğüne göre değişen sayılarda dataloggerlar yerleştirilir.",
-          "7 gün kayıttan sonra dataloggerlar toplanır ve bunlar Mersin Teknopark Ar-Ge ofisimizde geliştirdiğimiz yazılım ile raporlanır.",
-          "Bu raporlarda sıcaklık değişiklikleri 2D ve 3D olarak grafikler şeklinde raporlanır.",
-          "Rapor sonunda dosyalar dijital ortamda ve basılı olarak dosya istenen şekilde size teslim edilir.",
-          "Datalogger cihazlarını ve Isı haritalama yazılımını Mersin Teknopark ofisimizde geliştiriyoruz."
-        ],
-        "buttonText": "Arayın - 0 850 44 11 477",
-        "sefLink": "isi-ve-nem-haritalamasi"
-      },
-      {
-        "className": "product-section",
-        "position": "left",
-        "image": "/src/assets/images/gsmDataLogger.jpg",
-        "title": "GSM Datalogger",
-        "features": [
-          "Hassas Sıcaklık Kontrolü: M2M lojistikte kargo takibi, değerli malzemelerinizin taşıma süreci boyunca maruz kaldığı sıcaklık dalgalanmalarını hassas bir şekilde izler. Bu, özellikle ilaç, gıda ve diğer hassas ürünler için kritik önem taşır.",
-          "Nem Seviyesi İzleme: Kargo içindeki nem seviyesini sürekli olarak izleyerek, özellikle elektronik eşyalar, tekstil ve diğer nemden etkilenebilecek ürünlerin kalitesini korur. Bu, ürünlerin hasar görmesini önler.",
-          "Anlık Uyarı Sistemi: Sıcaklık veya nemde anormal bir değişiklik tespit edildiğinde, sistem otomatik olarak bir uyarı gönderir. Bu sayede, olası problemlere hızlı bir şekilde müdahale ederek kargonuzun güvenliğini sağlarsınız.",
-          "Kalite Güvencesi: Kargo sıcaklık ve nem takibi, ürünlerinizin taşıma sırasında uygun koşullarda tutulmasını sağlar. Bu da müşteri memnuniyetini artırarak, kalite standartlarınızı yükseltir.",
-          "Uzaktan İzleme ve Yönetim: M2M teknolojisi sayesinde, kargonuzun sıcaklık ve nem durumunu uzaktan izleyebilir ve gerektiğinde müdahale edebilirsiniz. Bu, operasyonlarınızı daha etkili hale getirir."
-        ],
-        "description": "Kargo sıcaklık ve nem takibi, M2M lojistikte önemli bir güvenlik unsuru olup, lojistik süreçlerinizi daha kontrollü ve güvenilir hale getirir.",
-        "buttonText": "Daha Fazla Bilgi",
-        "sefLink": "gsm-datalogger"
-      }
-    ]
-  }
-  
+  "sections": [
+    {
+      "className": "product-section",
+      "position": "left",
+      "image": "/src/assets/images/HiveTracMini.png",
+      "title": "Loggbee Kovan Takip Sistemi",
+      "description": "Cihaz Mersin Teknopark Ar-Ge Ofisimizde Yıllar Süren Çalışmalar ve Tecrübe Sonucu Üretilmiştir.",
+      "features": [
+        "Isı ve Nem (Kovan İçi ve Dışı)",
+        "Hava Kalitesi (Oksijen ve Diğer Gazların Oranı)",
+        "Ses Kalitesi (Kovandaki Translate İşlemi)",
+        "2G/3G/4G Haberleşme",
+        "GPRS Konum Takibi",
+        "Hareket Modulü",
+        "Ağırlık Takip (Zaman Grafikli)",
+        "Kamera ile Online İzleme ve Kayıt"
+      ],
+      "buttonText": "Broşür için tıklayınız",
+      "sefLink": "loggbee-kovan-takip-sistemi"
+    },
+    {
+      "className": "product-section",
+      "position": "right",
+      "image": "/src/assets/images/HeatHumiMini.jpg",
+      "title": "Loggbee Sıcaklık ve Nem Ölçme Cihazı",
+      "description": "Cihazı Mersin Teknopark Ar-Ge ofisimizde geliştirilmiştir ve geliştirmeye devam ediyoruz.",
+      "features": [
+        "Ortam sıcaklığı için sıcaklık ve nem sensörleri vardır.",
+        "Özel tasarım LCD ekran ile wifi bağlantısı, tarih, saat ve sıcaklık bilgisini ekranda gösterir.",
+        "Web yazılımında maksimum ve minimum değer tanımlaması yapılabilir.",
+        "Geliştirdiğimiz üründe sıcaklık ve nem uyarılarını eş zamanlı olarak 3 kişiye gönderebilir.",
+        "Eczanelerin istediği aylık çizelge web ortamında pdf ve excel olarak alınabilir",
+        "Sms ve mail bildirimi mevcut.",
+        "Web üzerinden izleme, geriye dönük rapor alabilme, gün içinde en yüksek ve en düşük değeri öğrenme, grafik şeklinde takip edebilebilme özelliği mevcut.",
+        "Android ve IOS için uygulama geliştiriliyor. 1 Temmuz’da aktif olarak kullanıma açılacaktır.",
+        "Kalibrasyonu TÜRKAK yetkilendirilmiş laboratuvarlarında yapılmıştır",
+        "TÜRKAK sertifikası ile birlikte ürün teslim edilecektir.",
+        "Nem ölçüm aralığı: 0 ~ 100% RHNem ölçüm doğruluğu: ± 2 % Sıcaklık ölçüm aralığı: -40 ~ 125 C",
+        "En önemli özelliklerinden biri de eczanenizdeki klimayı cihaza tanıtabiliyoruz ve sıcaklık belli bir değerin üstüne veya altına düştüğünde cihaz klimayı otomatik olarak açıp kapatabiliyor."
+      ],
+      "buttonText": "Çok yakında",
+      "sefLink": "loggbee-sicaklik-ve-nem-olcme-cihazi"
+    },
+    {
+      "className": "product-section",
+      "position": "left",
+      "image": "../../public/images/3.jpeg",
+      "title": "Kovan Güvenlik Kartı",
+      "features": [
+        "Güvenlik kartı kovan peteğine gizlenen bir cihazır.",
+        "Kovanda herhangi bir hareket algılandığında Kullanıcı hemen SMS, Mail e uygulama ile uyarılır.",
+        "Kovan hareket ettikçe yeni konum bilgisi sürekli gönderilir.",
+        "Kovanların çalınması durumunda GPS’ten sürekli takip edilir.",
+        "Kovanların çalınma girişiminde alarmlar devre girer ve sirenler çalmaya başlar.",
+        "Yabani hayvan saldırısında anında haberdar olursunuz.",
+        "Güvenlik kartında hareket olduğunda Alarmlar çalmaya başlar ve yabani hayvan o bölgeden uzaklaşır.",
+        "Konum hassasiyeti 1-3 metre arasındadır.",
+        "Kovanda hareket olmadığında cihaz günde bir uyku modundan çıkar ve konumuzu sunucuya aktarır.",
+        "Cihazın şarjı için petekten çıkarıp saatlerce sarj etmenize gerek. Cihaz ile birlikte kutudan yedek pil + pil sarj cihazı çıkmaktadır. Yedek pil ile birkaç dakikada pil değişimini yapabilirsiniz.",
+        "Cihazda bulunan sıcaklık ve nem sensörü aşırı  yükseldiğinde size uyarı gönderir.",
+        "Kovanlarınızın bulunduğu noktanın konum kaydı alındığı için balınızı satarken hangi noktada ve kaç gün kaldığınızın belgesini alabilirsin belge numarası ile web sitemizden doğrulama yapılabilir.",
+        "Cihaz GSM hattı ile çalışmaktadır. Turkcell ve TurkTelekom hatları kullanılmaktadır.",
+        "Cihaz 2 Yıl garantilidir. 1 Yıllık data hattı dahildir.",
+        "Bir pilin dayanma süresi ortalama 6 Ay – 12 Ay arasıdır.",
+        "Pil değişimi oldukça basittir.",
+        "Cihazın ebatları: 24mm X 240 mm boyutundadır."
+      ],
+      "buttonText": "Arayın - 0 850 44 11 477",
+      "sefLink": "kovan-guvenlik-karti"
+    },
+    {
+      "className": "product-section",
+      "position": "right",
+      "image": "/src/assets/images/HeatHumidityMapping.jpg",
+      "title": "Isı ve Nem Haritalaması",
+      "description": "Ecza depolarına Sıcaklık (Isı) Haritalaması yapıyoruz. Sağlık Bakanlığının yeni yönetmeliği gereği rafları dolu ve çalışan ecza depoları için yılda 1 defa 7 gün olmak üzere Isı haritalaması istenmektedir.",
+      "features": [
+        "Sıcaklık haritalaması için istenen sıcaklık değerleri (15°C - 25°C) arasıdır.",
+        "Soğuk Zincir depolar için (2°C - 8°C)",
+        "Depoda bulunan Ortam, Buzdolabı, Soğuk Oda, Karantina, Mal Kabul, Red Alan v.b alanlar için ayrı ayrı haritalama yapılması gereklidir.",
+        "Deponun büyüklüğüne göre değişen sayılarda dataloggerlar yerleştirilir.",
+        "7 gün kayıttan sonra dataloggerlar toplanır ve bunlar Mersin Teknopark Ar-Ge ofisimizde geliştirdiğimiz yazılım ile raporlanır.",
+        "Bu raporlarda sıcaklık değişiklikleri 2D ve 3D olarak grafikler şeklinde raporlanır.",
+        "Rapor sonunda dosyalar dijital ortamda ve basılı olarak dosya istenen şekilde size teslim edilir.",
+        "Datalogger cihazlarını ve Isı haritalama yazılımını Mersin Teknopark ofisimizde geliştiriyoruz."
+      ],
+      "buttonText": "Arayın - 0 850 44 11 477",
+      "sefLink": "isi-ve-nem-haritalamasi"
+    },
+    {
+      "className": "product-section",
+      "position": "left",
+      "image": "/src/assets/images/gsmDataLogger.jpg",
+      "title": "GSM Datalogger",
+      "features": [
+        "Hassas Sıcaklık Kontrolü: M2M lojistikte kargo takibi, değerli malzemelerinizin taşıma süreci boyunca maruz kaldığı sıcaklık dalgalanmalarını hassas bir şekilde izler. Bu, özellikle ilaç, gıda ve diğer hassas ürünler için kritik önem taşır.",
+        "Nem Seviyesi İzleme: Kargo içindeki nem seviyesini sürekli olarak izleyerek, özellikle elektronik eşyalar, tekstil ve diğer nemden etkilenebilecek ürünlerin kalitesini korur. Bu, ürünlerin hasar görmesini önler.",
+        "Anlık Uyarı Sistemi: Sıcaklık veya nemde anormal bir değişiklik tespit edildiğinde, sistem otomatik olarak bir uyarı gönderir. Bu sayede, olası problemlere hızlı bir şekilde müdahale ederek kargonuzun güvenliğini sağlarsınız.",
+        "Kalite Güvencesi: Kargo sıcaklık ve nem takibi, ürünlerinizin taşıma sırasında uygun koşullarda tutulmasını sağlar. Bu da müşteri memnuniyetini artırarak, kalite standartlarınızı yükseltir.",
+        "Uzaktan İzleme ve Yönetim: M2M teknolojisi sayesinde, kargonuzun sıcaklık ve nem durumunu uzaktan izleyebilir ve gerektiğinde müdahale edebilirsiniz. Bu, operasyonlarınızı daha etkili hale getirir."
+      ],
+      "description": "Kargo sıcaklık ve nem takibi, M2M lojistikte önemli bir güvenlik unsuru olup, lojistik süreçlerinizi daha kontrollü ve güvenilir hale getirir.",
+      "buttonText": "Daha Fazla Bilgi",
+      "sefLink": "gsm-datalogger"
+    }
+  ]
+}

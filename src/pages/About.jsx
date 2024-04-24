@@ -21,41 +21,105 @@ const About = () => {
           <div className='features'>
             <div>
               <i className='ri-check-line'></i>
-              <p>2010 yılından itibaren bölgede lider firma olmuş ve geçen 18 yıllık süreçte Mersin ve Adana illerinde en iyi Eğitim Teknolojileri firmalarından biri olmayı başarmıştır.</p>
+              <p>2004 Yılın çalışma hayatına başlayan firmamız</p>
             </div>
             <div>
               <i className='ri-check-line'></i>
-              <p>2005 yılında geliştirdiğimiz yazılımları kısa sürede oluşturduğumuz bayi ağı Türkiye'nin kullanımına sunmuştur.</p>
+              <p>2005 Yılında Eğitim sektöründe laboratuvar kurulumları, eğitim teknolojileri yazılımları ile Mersin ve Adana illerine hizmet vermeye başlamıştır.</p>
             </div>
             <div>
               <i className='ri-check-line'></i>
-              <p>2010 yılında yaptığımız Akıllı tahta çalışmaları ile 'Fatih Projesi' nin ortaya çıkmasında öncü olmuştur.</p>
+              <p>2010 Yılında verdiği hizmetlere Akıllı eğitim teknolojilerini eklemiştir.</p>
             </div>
             <div>
               <i className='ri-check-line'></i>
-              <p>2014 yılında ürettiğimiz saha takip yazılımlarını daha ilerilere götürmek için</p>
+              <p>2011 Yılında Mersin ve Adana illerinde en çok Akıllı sınıf oluşturan firma olmuştur. İl ve İlçe milli eğitim müdürlükleri ve kaymakamlar ile yaptığımız çalışmalar Milli Eğitim Bakanlığının dikkatini çekmiştir. Fatih Projesinin ortaya çıkmasına öncülük etmiştir.</p>
             </div>
             <div>
               <i className='ri-check-line'></i>
-              <p>2022 Mersin Üniversitesi Teknopark firmasındaki ofisimiz ile Ar-ge alanında çalışmalarımız başlamıştır.</p>
+              <p>2014 Yılında Arı Noktalarını sayısallaştırma projesi ile Gezginci arılar konakladıkları bölgeler kayıt altına alınmıştır.</p>
             </div>
             <div>
               <i className='ri-check-line'></i>
-              <p>Ar-ge çalışmasını yaptığımız IoT cihazı ile sahadan anlık olarak verileri sağlıklı olarak anında alabiliyor ve analizlerini yapabiliyoruz.</p>
+              <p>2020 Yılında Gömülü yazılım sistemleri ve Elektronik sistemler üzerine Ar-Ge çalışmalarına başlanmıştır.</p>
+            </div>
+            <div>
+              <i className='ri-check-line'></i>
+              <p>2022 Yılında Firmamız BioCoder Teknoloji Sanayi ve Ticaret Anonim Şirketi adını almıştı.</p>
+            </div>
+            <div>
+              <i className='ri-check-line'></i>
+              <p>2022 Yılında Ar-Ge çalışmasını yaptığı ürünlerin Saha çalışması ve güvenlik yazılımları testlerine başlanmıştır.</p>
+            </div>
+            <div>
+              <i className='ri-check-line'></i>
+              <p>2022 Yılında Sıcaklık ve Nem takip Cihazları satışına başlanmıştır.</p>
+            </div>
+            <div>
+              <i className='ri-check-line'></i>
+              <p>2023 Yılında Kovan Takip Sistemi Cihazlarının seri imalat ve satışlarına başlanmıştır.</p>
+            </div>
+            <div>
+              <i className='ri-check-line'></i>
+              <p>2023 Yılında Depolar için Sıcaklık, Nem, İklimlendirme Haritalama yazılımı geliştirilmiştir.</p>
+            </div>
+            <div>
+              <i className='ri-check-line'></i>
+              <p>2024 GSM Datalogger (Konum ile Sıcaklık ve Nem Takibi ) imalat ve satışına başlanmıştır.</p>
+            </div>
+            <div>
+              <i className='ri-check-line'></i>
+              <p>2024 Kovan Güvenlik Kartı AR-Ge çalışmaları sonunda imalat ve satışına başlanmıştır.</p>
+            </div>
+            <div>
+              <i className='ri-check-line'></i>
+              <p>Satışı Yapılan tüm ürünler Mersin Teknopark ofisinde Ar-Ge merkezimizde geliştirilmekte ve yapılmaktadır.</p>
+            </div>
+            <div>
+              <i className='ri-check-line'></i>
+              <p>Birkaç  ürün için Ar-Ge çalışmalarımız devam etmektedir.</p>
             </div>
           </div>
         </div>
         <div className="vision-mission">
           <div>
             <i className="ri-eye-line"></i>
-            <h3>Vizyon</h3>
-            <p>BioCoder Teknoloji, teknoloji dünyasında öncü bir rol üstlenmeyi hedefleyerek, güçlü gömülü sistem ekibiyle birlikte geleceğin teknolojik ihtiyaçlarına öncülük eden çözümler geliştirmeyi ve sektördeki standartları belirlemeyi vizyon edinir.</p>
+            <h3>Vizyon ve Misyon</h3>
+            <p>
+              BioCoder Teknoloji Sanayi ve Ticaret Anonim Şirketi olarak, şirketin uzun vadeli hedeflerini ve gelecekteki yönelimini yansıtan teknoloji firması olarak hayatımıza devam etmek istiyoruz.
+              Ülkemizin ve Dünyanın ihtiyaçlarına yönelik Daha hızlı, daha yenilikçi teknolojiler üretmek istiyoruz.
+              Bu amaçta Kendimize edindiğimiz Vizyon ve Misyon Hedeflerimiz ,
+            </p>
+            <p>
+              <b>Teknolojik İnovasyon ve Liderlik:</b> <br />
+              "Elektronik sektöründe teknolojik inovasyon lideri olmak ve dünyanın dört bir yanındaki insanların hayatlarını daha iyi hale getirmek için yenilikçi ürünler ve çözümler sunmak."
+            </p>
+            <p>
+              <b>Sürdürülebilirlik ve Çevresel Sorumluluk:</b> <br />
+              "Elektronik ürünlerimizle sürdürülebilir bir gelecek için çözümler sunmak ve çevresel etkimizi minimize ederek dünya çapında yeşil dönüşümü liderlik etmek."
+            </p>
+            <p>
+              <b>Müşteri Odaklılık ve Memnuniyet:</b> <br />
+              Müşterilerimizin ihtiyaçlarına ve beklentilerine odaklanarak, yüksek kaliteli ve kullanıcı dostu elektronik ürünler sunmak ve müşteri memnuniyetini her zaman ön planda tutmak istiyoruz.
+            </p>
+            <p>
+              <b>Küresel Bir Marka Olma:</b> <br />
+              Elektronik sektöründe küresel bir marka olarak tanınmak ve dünyanın her yerindeki tüketicilere güvenilir ve yenilikçi ürünler sunmak istiyoruz.
+            </p>
+            <p>
+              <b>Toplumsal Katkı ve İnsan Odaklılık:</b> <br />
+              Elektronik teknolojileriyle insanların yaşamlarını iyileştirmek ve toplumun genel refahına katkıda bulunmak için çözümler sunmak istiyoruz.
+            </p>
+            <p>
+              <b>Ekip İşbirliği ve Çalışan Memnuniyeti:</b> <br />
+              İnovasyonu teşvik eden ve çalışanlarımızın gelişimini destekleyen bir çalışma ortamı yaratmak ve ekip olarak başarıya ulaşmaya odaklanmak istiyoruz.
+            </p>
           </div>
-          <div>
+          {/* <div>
             <i className="ri-focus-2-line"></i>
             <h3>Misyon</h3>
             <p>BioCoder Teknoloji, endüstri lideri gömülü sistem ekibiyle bir araya gelerek, projelerinizde endüstriyel standartlara uygun, yenilikçi ve güvenilir yazılım çözümleri sunmayı amaçlar.</p>
-          </div>
+          </div> */}
         </div>
         <div className="statistics">
           <div>
