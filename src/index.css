@@ -732,6 +732,10 @@ header {
   letter-spacing: -0.14px;
   margin: 0;
 }
+.vision-mission div p b{
+  color: #030712;
+  font-weight: 500;
+}
 
 .statistics {
   display: flex;

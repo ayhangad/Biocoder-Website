@@ -83,7 +83,7 @@ const Header = () => {
                     <Button type={'button button-secondary'} disabled={false} innerText={'İletişime geç'} onClick={() => setIsModalOpen(!isModalOpen)} />
                 </div>
                 <div className="nav-trailing-responsive">
-                    <Button
+                    <Button className="menu-open-close"
                         type={'button button-secondary'}
                         disabled={false}
                         iconL={'menu'}
