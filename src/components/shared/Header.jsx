@@ -90,7 +90,7 @@ const Header = () => {
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
                     />
                 </div>
-                <div className={`${isMenuOpen && "show"} hamburger`}>
+                <div className={`${isMenuOpen ? "show" : ""} hamburger`}>
                     <div className="hamburger-wrapper">
                         {
                             navItems.map((item, i) => {
