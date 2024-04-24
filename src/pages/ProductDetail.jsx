@@ -32,6 +32,13 @@ const Products = () => {
                 })
               }
             </div>
+            {
+              product?.otherImages?.map((image, index) => {
+                return (
+                  <img key={index} src={image} alt="" />
+                )
+              })
+            }
             <Button
               type={'button'}
               innerText={product?.buttonText}
