@@ -11,7 +11,7 @@ const Home = () => {
         window.location.href = mailtoLink;
     };
     return (
-        
+
         <>
             <section className='hero'>
                 <img src={Hero} alt="" />
@@ -31,19 +31,19 @@ const Home = () => {
                 </div>
                 <div className="floating-menu">
                     <a href='https://bee.biocoder.com.tr/' target='_blank' className="floating-item jordy-blue-500">
-                        <i className='ri-bug-fill'></i>
+                        <img src="images/honeybee.svg" alt="" />
                         <span>
                             Kovan Takip <i className='ri-arrow-right-up-line'></i>
                         </span>
                     </a>
                     <a href='https://portal.biocoder.com.tr/Account/Login' target='_blank' className="floating-item jordy-blue-600">
-                        <i className='ri-temp-hot-fill'></i>
+                        <img src="images/temperature.svg" alt="" />
                         <span>
                             Sıcaklık Nem Takip <i className='ri-arrow-right-up-line'></i>
                         </span>
                     </a>
                     <a href='http://logistic.biocoder.com.tr/' target='_blank' className="floating-item jordy-blue-700">
-                        <i className='ri-map-pin-4-fill'></i>
+                        <img src="images/mappin.svg" alt="" />
                         <span>
                             GSM Datalogger <i className='ri-arrow-right-up-line'></i>
                         </span>

@@ -437,6 +437,12 @@ header {
   font-size: 40px;
   color: white;
 }
+.floating-item img{
+  z-index: inherit;
+  position: relative;
+  width: 40px;
+  margin: 0;
+}
 
 .floating-item span {
   font-size: 20px;
