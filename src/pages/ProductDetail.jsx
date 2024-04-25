@@ -41,6 +41,26 @@ const Products = () => {
                 })
               }
             </div>
+            <div className='product-action'>
+              <Button
+                iconL={'download'}
+                type={'button button-secondary'}
+                innerText={'Broşürü indir'}
+                disabled={true}
+              />
+              <Button
+                type={'button button-secondary'}
+                disabled={false}
+                innerText={'Videoyu izle'}
+                iconL={'play'}
+              />
+              <Button
+                type={'button'}
+                disabled={false}
+                innerText={'İletişime geç'}
+                onClick={() => setIsModalOpen(!isModalOpen)}
+              />
+            </div>
             {
               product?.otherImages?.map((image, index) => {
                 return (
@@ -48,12 +68,7 @@ const Products = () => {
                 )
               })
             }
-              <Button
-                type={'button button-secondary'}
-                innerText={product?.buttonText}
-                disabled={true}
-              />
-              <Button type={'button'} disabled={false} innerText={'İletişime geç'} onClick={() => setIsModalOpen(!isModalOpen)} />
+
           </div>
         </div>
       </section>

@@ -937,6 +937,18 @@ header {
   font-size: 24px;
   color: #0785C2;
 }
+.product-action{
+  width: 100%;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between;
+}
+.product-action .button span{
+  color: white;
+}
+.product-action .button-secondary span{
+  color: black;
+}
 
 /*---Blogs Section---*/
 .blog-section {
@@ -1376,6 +1388,13 @@ header {
 
   .contact-section {
     padding: 64px 16px;
+  }
+  .product-action{
+    width: auto;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
   }
 }
 
