@@ -3,7 +3,7 @@
     {
       "className": "product-section",
       "position": "left",
-      "image": "/images/HiveTracMini.png",
+      "image": "/images/HiveTracMini.jpg",
       "title": "Loggbee Kovan Takip Sistemi",
       "description": "Cihaz Mersin Teknopark Ar-Ge Ofisimizde Yıllar Süren Çalışmalar ve Tecrübe Sonucu Üretilmiştir.",
       "features": [
@@ -23,7 +23,10 @@
         "Haberleşme Modülü : Kovan Takip sistemi internet bağlantısını GSM hattı üzerinden sağlar. GSM data hattı olarak Turk Telekom ve Turkcell GSM şirketleri çalışmaktadır. Kovan Takip Sistemi içinde sim kart dahil şekilde çalışır."
       ],
       "buttonText": "Broşürü indir",
-      "sefLink": "loggbee-kovan-takip-sistemi"
+      "sefLink": "loggbee-kovan-takip-sistemi",
+      "otherImages": [
+        "/images/kovantakip2.jpg"
+      ]
     },
     {
       "className": "product-section",
