@@ -55,14 +55,20 @@ export const Footer = () => {
                         })
                     }
                     <div className="footer-trailing">
-                        <a href="" className="footer-social">
+                        <a target='_blank' href="https://www.linkedin.com/company/biocoder-teknoloji-sanayi-ve-ticaret-anonim-%C5%9Firketi/" className="footer-social">
                             <i className='ri-linkedin-fill'></i>
                         </a>
-                        <a href="" className="footer-social">
+                        <a target='_blank' href="https://twitter.com/BioCdrTeknoloji" className="footer-social">
                             <i className='ri-twitter-x-fill'></i>
                         </a>
-                        <a href="" className="footer-social">
+                        <a target='_blank' href="" className="footer-social">
                             <i className='ri-instagram-fill'></i>
+                        </a>
+                        <a target='_blank' href="https://www.youtube.com/@BioCoderTeknoloji" className="footer-social">
+                            <i className='ri-youtube-fill'></i>
+                        </a>
+                        <a target='_blank' href="https://www.facebook.com/people/BioCoder-Teknoloji-A%C5%9E/61557019755327/?name=xhp_nt__fb__action__open_user" className="footer-social">
+                            <i className='ri-facebook-fill'></i>
                         </a>
                     </div>
                 </div>

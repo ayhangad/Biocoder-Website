@@ -433,6 +433,16 @@ header {
   overflow: hidden;
 }
 
+.modal-menu {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  border-radius: 32px;
+  border: 2px solid var(--Gray-200, #E5E7EB);
+  box-shadow: 0px 2px 12px 0px rgba(18, 18, 18, 0.20);
+  overflow: hidden;
+}
+
 .floating-item {
   display: flex;
   padding: 24px 32px;
@@ -459,6 +469,12 @@ header {
 .floating-item i {
   font-size: 40px;
   color: white;
+}
+.floating-item img{
+  z-index: inherit;
+  position: relative;
+  width: 40px;
+  margin: 0;
 }
 
 .floating-item span {
@@ -765,7 +781,8 @@ header {
   letter-spacing: -0.14px;
   margin: 0;
 }
-.vision-mission div p b{
+
+.vision-mission div p b {
   color: #030712;
   font-weight: 500;
 }
@@ -897,7 +914,9 @@ header {
   width: 100%;
   height: 500px;
   border-radius: 24px;
-  object-fit: cover;
+  object-fit: contain;
+  background-color: #E5E7EB;
+  border: 1px solid #D1D5DB;
 }
 
 .product-information {
@@ -952,6 +971,18 @@ header {
 .product-information div span i {
   font-size: 24px;
   color: #0785C2;
+}
+.product-action{
+  width: 100%;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between;
+}
+.product-action .button span{
+  color: white;
+}
+.product-action .button-secondary span{
+  color: black;
 }
 
 /*---Blogs Section---*/
@@ -1235,17 +1266,19 @@ header {
 }
 
 /*---Modal Form---*/
-.modal-shade{
+.modal-shade {
   display: none;
   justify-content: center;
   align-items: center;
   position: fixed;
   height: 100vh;
   width: 100%;
+  top: 0;
   background-color: #121212d5;
   z-index: 10;
 }
-.modal-shade .wrapper{
+
+.modal-shade .wrapper {
   position: relative;
   width: 600px;
   background-color: white;
@@ -1254,23 +1287,30 @@ header {
   flex-direction: column;
   padding: 0;
 }
-.modal-shade .wrapper .form{
+.modal-shade .login{
+  width: 1200px;
+}
+
+.modal-shade .wrapper .form {
   padding: 48px;
 }
-.modal-shade .wrapper .form span h3{
+
+.modal-shade .wrapper .form span h3 {
   font-size: 32px;
 }
-.show{
+
+.show {
   display: flex !important;
 }
-.modal-button{
+
+.modal-button {
   position: absolute;
   right: 16px;
   top: 16px;
 }
 
 /*---Hamburger Menu---*/
-.hamburger{
+.hamburger {
   display: none;
   position: absolute;
   background-color: white;
@@ -1280,7 +1320,8 @@ header {
   top: 110px;
   justify-content: center;
 }
-.hamburger-wrapper{
+
+.hamburger-wrapper {
   width: 100%;
   max-width: 800px;
   display: flex;
@@ -1379,8 +1420,16 @@ header {
   .product-section {
     padding: 0 16px;
   }
-  .contact-section{
+
+  .contact-section {
     padding: 64px 16px;
+  }
+  .product-action{
+    width: auto;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -1420,34 +1469,42 @@ header {
   .blog-item {
     min-width: 100%;
   }
-  .contact-form{
+
+  .contact-form {
     flex-direction: column;
   }
-  .contact-form div{
+
+  .contact-form div {
     min-width: 100%;
     padding: 0;
   }
- .contact-form .contact-image{
+
+  .contact-form .contact-image {
     height: 400px;
   }
-  .contact-informations{
+
+  .contact-informations {
     width: 100%;
     flex-direction: column;
   }
-  .contact-informations div{
+
+  .contact-informations div {
     padding: 12px;
     width: calc(100% - 32px);
     border-radius: 20px;
     margin: auto;
     gap: 8px;
   }
-  .contact-informations div span{
+
+  .contact-informations div span {
     font-size: 14px;
   }
-  .contact-informations div i{
+
+  .contact-informations div i {
     font-size: 24px;
   }
-  .contact-section{
+
+  .contact-section {
     padding: 32px 16px;
   }
 
@@ -1632,7 +1689,8 @@ header {
     width: 100%;
     max-width: 300px;
   }
-  .contact-form .form span h3{
+
+  .contact-form .form span h3 {
     font-size: 24px;
   }
 

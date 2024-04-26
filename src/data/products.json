@@ -22,13 +22,13 @@
         "Hareket Modülü : Kovanda herhangi bir hareket olduğunda ( Hırsızlık, yabani hayvan saldırısı, rüzgar ,fırtına) gibi durumlarda sizi haberdar eder. Ağırlık Takibi: Kovanın günlük, haftalık, aylık ve sezonluk bal verimini takip eder. Buradan arıların huzurlu ve verimli çalıştığını analiz edebilirsiniz. Bu sayede doğru zamanda hasat yapılabilir ve arıların enerji dengesi korunur. Anormal bir ağırlık kaybı, hastalık veya yetersiz beslenme gibi sorunları işaret edebilir. Kış mevsiminde arıların kovanın içinde yeterli bal stoku olduğundan emin olmak önemlidir.",
         "Haberleşme Modülü : Kovan Takip sistemi internet bağlantısını GSM hattı üzerinden sağlar. GSM data hattı olarak Turk Telekom ve Turkcell GSM şirketleri çalışmaktadır. Kovan Takip Sistemi içinde sim kart dahil şekilde çalışır."
       ],
-      "buttonText": "Broşür için tıklayınız",
+      "buttonText": "Broşürü indir",
       "sefLink": "loggbee-kovan-takip-sistemi"
     },
     {
       "className": "product-section",
       "position": "right",
-      "image": "/images/HeatHumiMini.jpg",
+      "image": "/images/sicaklikvenemtakip.jpg",
       "title": "Sıcaklık ve Nem Wi-Fi ( Datalogger ) Cihazı",
       "description": "Cihazı Mersin Teknopark Ar-Ge ofisimizde geliştirilmiştir ve geliştirmeye devam ediyoruz.",
       "features": [
@@ -49,7 +49,7 @@
         "Nem Ölçüm Aralığı: 0 ~ 100% RH.",
         "Sıcaklık Ölçüm Aralığı: - 40  ~ 125 °C"
       ],
-      "buttonText": "Çok yakında",
+      "buttonText": "Broşürü indir",
       "sefLink": "loggbee-sicaklik-ve-nem-olcme-cihazi"
     },
     {
@@ -76,7 +76,7 @@
         "Pil değişimi oldukça basittir.",
         "Cihazın ebatları: 24mm X 240 mm boyutundadır."
       ],
-      "buttonText": "Arayın - 0 850 44 11 477",
+      "buttonText": "Broşürü indir",
       "sefLink": "kovan-guvenlik-karti",
       "otherImages": [
         "/images/1.jpeg",
@@ -103,7 +103,7 @@
         "Rapor sonunda dosyalar dijital ortamda ve basılı olarak dosya istenen şekilde size teslim edilir.",
         "Datalogger cihazlarını ve Isı haritalama yazılımını Mersin Teknopark ofisimizde geliştiriyoruz."
       ],
-      "buttonText": "Arayın - 0 850 44 11 477",
+      "buttonText": "Broşürü indir",
       "sefLink": "isi-ve-nem-haritalamasi"
     },
     {
@@ -119,7 +119,7 @@
         "Uzaktan İzleme ve Yönetim: M2M teknolojisi sayesinde, kargonuzun sıcaklık ve nem durumunu uzaktan izleyebilir ve gerektiğinde müdahale edebilirsiniz. Bu, operasyonlarınızı daha etkili hale getirir."
       ],
       "description": "Kargo sıcaklık ve nem takibi, M2M lojistikte önemli bir güvenlik unsuru olup, lojistik süreçlerinizi daha kontrollü ve güvenilir hale getirir.",
-      "buttonText": "Daha Fazla Bilgi",
+      "buttonText": "Broşürü indir",
       "sefLink": "gsm-datalogger"
     }
   ]
