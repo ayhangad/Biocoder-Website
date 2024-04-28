@@ -389,9 +389,10 @@ header {
 
 .slider-arrows {
   position: absolute;
+  padding: 40px;
   top: 50%;
   transform: translateY(-50%);
-  width: 100%;
+  width: calc(100% - 80px);
   display: flex;
   justify-content: space-between;
 }

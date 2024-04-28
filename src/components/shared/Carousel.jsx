@@ -58,10 +58,10 @@ const Carousel = () => {
             </div>
             <div className="slider-arrows">
                 <div className="arrow left" onClick={() => updateHeroContent(-1)}>
-                    <i className="ri-arrow-left-line"></i>
+                    <i className="ri-arrow-left-s-line"></i>
                 </div>
                 <div className="arrow right" onClick={() => updateHeroContent(1)}>
-                    <i className="ri-arrow-right-line"></i>
+                    <i className="ri-arrow-right-s-line"></i>
                 </div>
             </div>
         </section>
