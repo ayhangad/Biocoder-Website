@@ -34,7 +34,7 @@ const Contact = () => {
             </form>
           </div>
           <div className='contact-image'>
-            <img src={contactFormImage} alt="" />
+            <img src={contactFormImage} alt="Bilgisayarla iş yapan bir kadın görseli" />
           </div>
         </div>
         <div className="contact-informations">

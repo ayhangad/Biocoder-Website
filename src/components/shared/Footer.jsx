@@ -39,7 +39,7 @@ export const Footer = () => {
             <div className="footer-wrapper">
                 <div className="footer-top">
                     <div className="footer-leading">
-                        <img src={footerlogo} alt="" />
+                        <img src={footerlogo} alt="Biocoder Teknoloji A.Ş. marka logosu" />
                     </div>
                     {
                         navItems.map((item, i) => {

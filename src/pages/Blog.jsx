@@ -11,7 +11,7 @@ const Blog = () => {
       </section>
       <section className="blog-section">
         <div className="blog-item">
-          <img src="https://source.unsplash.com/random/?tech" alt="" />
+          <img src="images/Logo.png" alt="Biocoder Teknoloji A.Ş. marka logosu" />
           <div className='blog-item-wrapper'>
             <div>
               <h4>Move rectangle pencil star export</h4>
@@ -21,7 +21,7 @@ const Blog = () => {
           </div>
         </div>
         <div className="blog-item">
-          <img src="https://source.unsplash.com/random/?technology" alt="" />
+          <img src="images/Logo.png" alt="Biocoder Teknoloji A.Ş. marka logosu" />
           <div className='blog-item-wrapper'>
             <div>
               <h4>Move rectangle pencil star export</h4>
@@ -31,7 +31,7 @@ const Blog = () => {
           </div>
         </div>
         <div className="blog-item">
-          <img src="https://source.unsplash.com/random/?programming" alt="" />
+          <img src="images/Logo.png" alt="Biocoder Teknoloji A.Ş. marka logosu" />
           <div className='blog-item-wrapper'>
             <div>
               <h4>Move rectangle pencil star export</h4>
@@ -41,7 +41,7 @@ const Blog = () => {
           </div>
         </div>
         <div className="blog-item">
-          <img src="https://source.unsplash.com/random/?internet" alt="" />
+          <img src="images/Logo.png" alt="Biocoder Teknoloji A.Ş. marka logosu" />
           <div className='blog-item-wrapper'>
             <div>
               <h4>Move rectangle pencil star export</h4>
@@ -51,7 +51,7 @@ const Blog = () => {
           </div>
         </div>
         <div className="blog-item">
-          <img src="https://source.unsplash.com/random/?electronics" alt="" />
+          <img src="images/Logo.png" alt="Biocoder Teknoloji A.Ş. marka logosu" />
           <div className='blog-item-wrapper'>
             <div>
               <h4>Move rectangle pencil star export</h4>
@@ -61,7 +61,7 @@ const Blog = () => {
           </div>
         </div>
         <div className="blog-item">
-          <img src="https://source.unsplash.com/random/?computer" alt="" />
+          <img src="images/Logo.png" alt="Biocoder Teknoloji A.Ş. marka logosu" />
           <div className='blog-item-wrapper'>
             <div>
               <h4>Move rectangle pencil star export</h4>

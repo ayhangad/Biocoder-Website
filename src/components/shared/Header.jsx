@@ -66,7 +66,7 @@ const Header = () => {
             </div>
             <nav className='navbar'>
                 <div className="nav-leading">
-                    <img src={logo} alt="" onClick={() => navigate(`/`)} />
+                    <img src={logo} alt="Biocoder Teknoloji A.Ş. marka logosu" onClick={() => navigate(`/`)} />
                 </div>
                 {
                     navItems.map((item, i) => {

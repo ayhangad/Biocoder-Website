@@ -1010,7 +1010,8 @@ header {
 
 .blog-item img {
   height: 300px;
-  object-fit: cover;
+  object-fit: contain;
+  background-color: #E5E7EB;
 }
 
 .blog-item-wrapper {

@@ -152,7 +152,7 @@ const About = () => {
           </div>
         </div>
         <div className="ar-ge">
-          <img src={argePhoto} alt="" />
+          <img src={argePhoto} alt="Arka plan görseli" />
           <h3>Ar-Ge</h3>
           <p>Geleceğimiz İçin Projeler Geliştiriyoruz.
 

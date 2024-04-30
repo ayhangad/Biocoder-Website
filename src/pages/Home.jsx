@@ -28,7 +28,7 @@ const Home = () => {
                             return (
                                 // eslint-disable-next-line react/jsx-key
                                 <div className="product-item">
-                                    <img src={product?.image} alt=""/>
+                                    <img src={product?.image} alt="Ürünün görseli"/>
                                     <div className="product-information">
                                         <span>{product?.title}</span>
                                         <a href={"/products/" + product.sefLink}>Detayları incele</a>

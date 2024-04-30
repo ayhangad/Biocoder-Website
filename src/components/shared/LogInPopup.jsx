@@ -23,19 +23,19 @@ const ContactPopup = ({ isModalOpen, setIsModalOpen }) => {
                 />
                 <div className="modal-menu">
                     <a href='https://bee.biocoder.com.tr/' target='_blank' className="floating-item jordy-blue-500">
-                        <img src="images/honeybee.svg" alt="" />
+                        <img src="images/honeybee.svg" alt="Bal arısı simgesi" />
                         <span>
                             Kovan Takip <i className='ri-arrow-right-up-line'></i>
                         </span>
                     </a>
                     <a href='https://portal.biocoder.com.tr/Account/Login' target='_blank' className="floating-item jordy-blue-600">
-                        <img src="images/temperature.svg" alt="" />
+                        <img src="images/temperature.svg" alt="Sıcaklık ve nem gösterge simgesi" />
                         <span>
                             Sıcaklık Nem Takip <i className='ri-arrow-right-up-line'></i>
                         </span>
                     </a>
                     <a href='http://logistic.biocoder.com.tr/' target='_blank' className="floating-item jordy-blue-700">
-                        <img src="images/mappin.svg" alt="" />
+                        <img src="images/mappin.svg" alt="Harita ve lokasyon bildiren simge" />
                         <span>
                             GSM Datalogger <i className='ri-arrow-right-up-line'></i>
                         </span>

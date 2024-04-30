@@ -23,7 +23,7 @@ const Products = () => {
       <ContactPopup isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} />
       <section className="product-section">
         <div className="wrapper">
-          <img src={product?.image} alt="" />
+          <img src={product?.image} alt="Ürünün görseli" />
           <div className='product-information'>
             <div>
               <h3>{product?.title}</h3>
@@ -64,7 +64,7 @@ const Products = () => {
             {
               product?.otherImages?.map((image, index) => {
                 return (
-                  <img key={index} src={image} alt="" />
+                  <img key={index} src={image} alt="Ürünün diğer görselleri" />
                 )
               })
             }

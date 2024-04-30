@@ -24,7 +24,7 @@ const Products = () => {
           ProductsData?.sections?.map((product, index) => {
             return (
               <div className="blog-item">
-                <img src={product?.image} alt="" />
+                <img src={product?.image} alt="Ürünün görseli" />
                 <div className='blog-item-wrapper'>
                   <div>
                     <h4>{product?.title}</h4>
