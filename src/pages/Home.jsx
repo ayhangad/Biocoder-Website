@@ -13,9 +13,9 @@ const Home = () => {
             <Carousel />
             <section className='products'>
                 <div className="section-header">
-                    <h1>
+                    <h2>
                         Ürünlerimiz
-                    </h1>
+                    </h2>
                     <p>
                         Son yıllarda önemi giderek artan IoT sistemler üzerine uzmanlaşarak bir çok projeye imza
                         atıyoruz.

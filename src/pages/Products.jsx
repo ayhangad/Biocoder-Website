@@ -15,8 +15,8 @@ const Products = () => {
     <div>
       <section className="page-header">
         <div>
-          <h1>Ürünlerimiz</h1>
-          <p>Firmamız Her Zaman Yenilikçi İşler Peşinde... Biocoder Teknoloji A.Ş Çok Yakında Çalışmasını Yaptığımız Ar-Ge Ürünler Ile Buradayız.</p>
+          <h2>Ürünlerimiz</h2>
+          <p>Firmamızın Ar-Ge merkezi tarafından geliştirilen ürünler. Ürünlerimizin her türlü saha koşullarında testleri yapılmıştır.</p>
         </div>
       </section>
       <section className="blog-section">
