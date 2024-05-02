@@ -45,7 +45,7 @@ const About = () => {
             </div>
             <div>
               <i className='ri-check-line'></i>
-              <p>2022 Yılında Firmamız BioCoder Teknoloji Sanayi ve Ticaret Anonim Şirketi adını almıştı.</p>
+              <p>2022 Yılında Firmamız BioCoder Teknoloji Sanayi ve Ticaret Anonim Şirketi adını almıştır.</p>
             </div>
             <div>
               <i className='ri-check-line'></i>
