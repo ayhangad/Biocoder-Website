@@ -6,6 +6,7 @@ import Blog from "../pages/Blog";
 import Products from "../pages/Products";
 import ProductDetail from "../pages/ProductDetail";
 import Contact from "../pages/Contact";
+import BlogDetail from "../pages/BlogDetail";
 export const routes = [
     {
         path: '/',
@@ -30,6 +31,12 @@ export const routes = [
         component: ProductDetail,
         layout: DefaultLayout,
         title: "Ürünler",
+    },
+    {
+        path: '/blog/:blogId',
+        component: BlogDetail,
+        layout: DefaultLayout,
+        title: "Blog",
     },
     {
         path: '/blog',
