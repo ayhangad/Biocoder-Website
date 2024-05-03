@@ -1,17 +1,32 @@
 [
     {
       "title": "Profesyonel Çözümlerle Teknolojiyi Yeniden Şekillendirmek.",
-      "description": "Cihaz Mersin Teknopark Ar-Ge Ofisimizde Yıllar Süren Çalışmalar ve Tecrübe Sonucu Üretilmiştir.",
+      "description": "2004 yılında 'En yeni iletişim ve bilgisayar teknolojilerini kullanarak Eğitim Teknolojileri müşterilerine dünya standartlarında çözümler sunmak' ilkesiyle yola çıkan BioCoder Teknoloji",
       "image": "/images/Hero.jpg"
     },
     {
-      "title": "2. Profesyonel Çözümlerle Teknolojiyi Yeniden Şekillendirmek.",
-      "description": "2. Cihaz Mersin Teknopark Ar-Ge Ofisimizde Yıllar Süren Çalışmalar ve Tecrübe Sonucu Üretilmiştir.",
+      "title": "Kovan Takip Sistemi",
+      "description": "Cihaz Mersin Teknopark Ar-Ge Ofisimizde Yıllar Süren Çalışmalar ve Tecrübe Sonucu Üretilmiştir.",
+      "image": "/images/HiveTracMini.jpg"
+    },
+    {
+      "title": "Kovan Güvenlik Kartı",
+      "description": "Arı kovanlarınızı korumak ve takip etmek için tasarlanmış olan güvenlik kartı, hareket algıladığında kullanıcıya bildirim gönderir, GPS ile kovanları sürekli izler, hırsızlık veya yabani hayvan saldırısı durumunda alarmlar devreye girer.",
       "image": "/images/1.jpeg"
     },
     {
-      "title": "3. Profesyonel Çözümlerle Teknolojiyi Yeniden Şekillendirmek.",
-      "description": "3. Cihaz Mersin Teknopark Ar-Ge Ofisimizde Yıllar Süren Çalışmalar ve Tecrübe Sonucu Üretilmiştir.",
-      "image": "/images/2.jpeg"
+      "title": "Sıcaklık ve Nem Wi-Fi (Datalogger) Cihazı",
+      "description": "Cihazı Mersin Teknopark Ar-Ge ofisimizde geliştirilmiştir ve geliştirmeye devam ediyoruz.",
+      "image": "/images/sicaklikvenemtakip.jpg"
+    },
+    {
+      "title": "GSM Datalogger",
+      "description": "Kargo sıcaklık ve nem takibi, M2M lojistikte önemli bir güvenlik unsuru olup, lojistik süreçlerinizi daha kontrollü ve güvenilir hale getirir.",
+      "image": "/images/gsmDataLogger.jpg"
+    },
+    {
+      "title": "Isı ve Nem Haritalaması",
+      "description": "Ecza depolarına Sıcaklık (Isı) Haritalaması yapıyoruz. Sağlık Bakanlığının yeni yönetmeliği gereği rafları dolu ve çalışan ecza depoları için yılda 1 defa 7 gün olmak üzere Isı haritalaması istenmektedir.",
+      "image": "/images/HeatHumidityMapping.jpg"
     }
 ]
