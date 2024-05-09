@@ -38,6 +38,26 @@
             "otherImages": [
                 ""
             ]
+        },
+        {
+            "title": "Arı Hastalıkları",
+            "sefLink": "ari-hastaliklari",
+            "image": "/images/ari-hastaliklari.jpeg",
+            "content": "",
+            "date": "09.05.2024",
+            "otherImages": [
+                ""
+            ]
+        },
+        {
+            "title": "Arıcılık Takvimi",
+            "sefLink": "aricilik-takvimi",
+            "image": "/images/aricilik-takvimi.jpeg",
+            "content": "",
+            "date": "09.05.2024",
+            "otherImages": [
+                ""
+            ]
         }
     ]
 }
